@@ -78,8 +78,10 @@ val structIngot = <ore:ingotStructural>;
 <ore:ingotStructural>.addAll(<ore:ingotNickel>);
 <ore:ingotStructural>.addAll(<ore:ingotLead>);
 <ore:ingotStructural>.addAll(<ore:ingotAluminum>);
+<ore:ingotStructural>.addAll(<ore:ingotAluminumBrass>);
 <ore:ingotStructural>.addAll(<ore:ingotAlumite>);
 <ore:ingotStructural>.addAll(<ore:ingotObsidian>);
+
 
 
 // Now magic bucket recipe happens.
@@ -90,6 +92,21 @@ recipes.addShaped(<minecraft:bucket>,
   [structIngot, null, structIngot],
   [null, structIngot, null]]);
 
+// For added lols, magic piston recipe.
+//
+recipes.removeShaped(<minecraft:piston>);
+recipes.addShaped(<minecraft:piston>,
+ [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+  [<ore:cobblestone>, structIngot, <ore:cobblestone>],
+  [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>]]);
+
+// hoppers
+//
+recipes.removeShaped(<minecraft:hopper>);
+recipes.addShaped(<minecraft:hopper>,
+ [[structIngot, null, structIngot],
+  [structIngot, <minecraft:chest>, structIngot],
+  [null, structIngot, null]]);
   
   
 // Oreberry Bush Magic
@@ -106,3 +123,9 @@ val bushAluminum = <TConstruct:ore.berries.two:8>;
 // mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:water_bucket>, [<minecraft:dirt>, <minecraft:wheat_seeds>], "terra 1, victus 1, arbor 25", <minecraft:sapling>, 15);
 
 
+// Storage drawers has opinions about oredictionary conversion
+
+mods.storagedrawers.OreDictionaryWhitelist.add("nuggetAluminum");
+mods.storagedrawers.OreDictionaryWhitelist.add("nuggetAluminium");
+mods.storagedrawers.OreDictionaryWhitelist.add("nuggetTin");
+mods.storagedrawers.OreDictionaryWhitelist.add("nuggetCopper");

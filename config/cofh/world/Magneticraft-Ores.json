@@ -1,0 +1,36 @@
+{
+  "Thorium": {
+    "template": "normal",
+    "block": "Magneticraft:thorium_ore",
+    "material": "stone",
+    "clusterSize": 6,
+    "numClusters": 5,
+    "meanHeight": 10,
+    "maxVariance": 10,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+        -1,
+      1
+    ]
+  },
+  "Tungsten": {
+    "template": "normal",
+    "block": "Magneticraft:tungsten_ore",
+    "material": "stone",
+    "clusterSize": 6,
+    "numClusters": 2,
+    "meanHeight": 5,
+    "maxVariance": 5,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+        -1,
+      1
+    ]
+  }
+}

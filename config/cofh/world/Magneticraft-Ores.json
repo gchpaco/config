@@ -1,12 +1,12 @@
 {
   "Thorium": {
-    "template": "normal",
+    "template": "uniform",
     "block": "Magneticraft:thorium_ore",
     "material": "stone",
     "clusterSize": 6,
-    "numClusters": 5,
-    "meanHeight": 10,
-    "maxVariance": 10,
+    "numClusters": 6,
+    "minHeight": 1,
+    "maxHeight": 20,
     "retrogen": "true",
     "biomeRestriction": "none",
     "biomes": [],
@@ -17,13 +17,47 @@
     ]
   },
   "Tungsten": {
-    "template": "normal",
+    "template": "uniform",
     "block": "Magneticraft:tungsten_ore",
     "material": "stone",
     "clusterSize": 6,
-    "numClusters": 2,
-    "meanHeight": 5,
-    "maxVariance": 5,
+    "numClusters": 3,
+    "minHeight": 1,
+    "maxHeight": 10,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+        -1,
+      1
+    ]
+  },
+  "Thorium-Basalt": {
+    "template": "uniform",
+    "block": "Magneticraft:thorium_ore",
+    "material": "Artifice:tile.artifice.basalt",
+    "clusterSize": 6,
+    "numClusters": 5,
+    "minHeight": 1,
+    "maxHeight": 20,
+    "retrogen": "true",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+        -1,
+      1
+    ]
+  },
+  "Tungsten-Basalt": {
+    "template": "uniform",
+    "block": "Magneticraft:tungsten_ore",
+    "material": "Artifice:tile.artifice.basalt",
+    "clusterSize": 6,
+    "numClusters": 3,
+    "minHeight": 1,
+    "maxHeight": 10,
     "retrogen": "true",
     "biomeRestriction": "none",
     "biomes": [],

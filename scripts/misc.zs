@@ -129,3 +129,14 @@ mods.storagedrawers.OreDictionaryWhitelist.add("nuggetAluminum");
 mods.storagedrawers.OreDictionaryWhitelist.add("nuggetAluminium");
 mods.storagedrawers.OreDictionaryWhitelist.add("nuggetTin");
 mods.storagedrawers.OreDictionaryWhitelist.add("nuggetCopper");
+
+
+
+// Immersive Engineering Creosote Fix
+
+val IEcreosote = <ImmersiveEngineering:fluidContainers:0>;
+
+recipes.addShaped(<Railcraft:part.tie>,
+	[[null, null, null],
+	 [null, IEcreosote, null],
+	 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);

@@ -140,3 +140,13 @@ recipes.addShaped(<Railcraft:part.tie>,
 	[[null, null, null],
 	 [null, IEcreosote, null],
 	 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+
+
+// Solve argument between Malsis and ExU
+
+recipes.removeShaped(<ExtraUtilities:curtains>);
+recipes.addShaped(<ExtraUtilities:curtains>*12,
+	[[<ore:blockWool>, null, <ore:blockWool>],
+	 [<ore:blockWool>, null, <ore:blockWool>],
+	 [<ore:blockWool>, null, <ore:blockWool>]]);
+	 

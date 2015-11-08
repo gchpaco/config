@@ -82,10 +82,32 @@
     "block": {"name": "ThermalFoundation:Ore", "metadata": 4},
     "material": "stone",
     "clusterSize": 4,
-    "numClusters": 2,
+    "numClusters": 3,
     "meanHeight": 24,
     "maxVariance": 4,
     "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [
+      "all"
+    ],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+        -1,
+      1
+    ]
+  },
+  "platinum": {
+    "template": "uniform",
+    "generator": "sparse-cluster",
+    "block": [
+      {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
+      {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
+    ],
+    "clusterSize": 3,
+    "numClusters": 1,
+    "minHeight": 5,
+    "maxHeight": 30,
+    "retrogen": "true",
     "biomeRestriction": "none",
     "biomes": [
       "all"

@@ -1,36 +1,29 @@
 {
-  "CertusQuartz": {
-    "template": "normal",
-    "block": "appliedenergistics2:tile.OreQuartz",
-    "material": "stone",
-    "clusterSize": 4,
-    "numClusters": 4,
-    "meanHeight": 13,
-    "maxVariance": 7,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "CertusQuartzCharged": {
-    "template": "normal",
-    "block": "appliedenergistics2:tile.OreQuartzCharged",
-    "material": "stone",
-    "clusterSize": 3,
-    "numClusters": 1,
-    "meanHeight": 13,
-    "maxVariance": 7,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  }
+    "certusquartz": {
+        "template": "uniform",
+        "block": [
+            {
+                "name": "appliedenergistics2:tile.OreQuartz",
+                "metadata": 0,
+                "weight": 90
+            },
+            {
+                "name": "appliedenergistics2:tile.OreQuartzCharged",
+                "metadata": 0,
+                "weight": 10
+            }
+        ],
+        "clusterSize": 8,
+        "numClusters": 4,
+        "minHeight": 36,
+        "maxHeight": 54,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
 }

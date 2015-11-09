@@ -1,206 +1,218 @@
 {
-  "Skystone": {
-    "template": "normal",
-    "block": "appliedenergistics2:tile.BlockSkyStone",
-    "material": "stone",
-    "clusterSize": 10,
-    "numClusters": 1,
-    "meanHeight": 175,
-    "maxVariance": 10,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
+  "M-AirShard": {
     "dimensions": [
-        -1,
+      -1,
       1
-    ]
-  },
-  "M-Iron": {
-    "template": "normal",
-    "block": "minecraft:iron_ore",
-    "material": "stone",
-    "clusterSize": 4,
-    "numClusters": 10,
-    "meanHeight": 123,
-    "maxVariance": 49,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
+    ],
     "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "M-Coal": {
-    "template": "normal",
-    "block": "minecraft:coal_ore",
-    "material": "stone",
-    "clusterSize": 6,
-    "numClusters": 6,
-    "meanHeight": 128,
-    "maxVariance": 53,
-    "retrogen": "false",
-    "biomeRestriction": "none",
     "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "M-Gold": {
-    "template": "normal",
-    "block": "minecraft:gold_ore",
-    "material": "stone",
-    "clusterSize": 5,
-    "numClusters": 2,
-    "meanHeight": 153,
-    "maxVariance": 24,
-    "retrogen": "false",
     "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "M-Lapis": {
-    "template": "normal",
-    "block": "minecraft:lapis_ore",
-    "material": "stone",
-    "clusterSize": 4,
-    "numClusters": 2,
-    "meanHeight": 148,
-    "maxVariance": 24,
     "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "M-Emeralds": {
-    "template": "normal",
-    "block": "minecraft:emerald_ore",
-    "material": "stone",
-    "clusterSize": 3,
-    "numClusters": 1,
-    "meanHeight": 133,
-    "maxVariance": 26,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "M-Diamond": {
-    "template": "normal",
-    "block": "minecraft:diamond_ore",
-    "material": "stone",
-    "clusterSize": 2,
-    "numClusters": 1,
-    "meanHeight": 180,
-    "maxVariance": 90,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "Apatite": {
-    "template": "normal",
-    "block": "Forestry:resources",
-    "material": "stone",
-    "clusterSize": 8,
-    "numClusters": 3,
-    "meanHeight": 103,
-    "maxVariance": 29,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "ShinyOre": {
-    "template": "normal",
-    "block": {"name": "ThermalFoundation:Ore", "metadata": 5},
-    "material": "stone",
-    "clusterSize": 2,
-    "numClusters": 1,
-    "meanHeight": 173,
-    "maxVariance": 12,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "M-EntropyShard": {
-    "template": "normal",
-    "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 6},
-    "material": "stone",
-    "clusterSize": 4,
-    "numClusters": 1,
-    "meanHeight": 85,
     "maxVariance": 16,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
+    "meanHeight": 174,
+    "numClusters": 1,
+    "clusterSize": 4,
+    "material": "stone",
+    "block": {
+      "metadata": 1,
+      "name": "Thaumcraft:blockCustomOre"
+    },
+    "template": "normal"
   },
   "M-EarthShard": {
-    "template": "normal",
-    "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 4},
-    "material": "stone",
-    "clusterSize": 4,
-    "numClusters": 1,
-    "meanHeight": 145,
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
     "maxVariance": 24,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
-    "dimensions": [
-        -1,
-      1
-    ]
-  },
-  "M-AirShard": {
-    "template": "normal",
-    "block": {"name": "Thaumcraft:blockCustomOre", "metadata": 1},
-    "material": "stone",
-    "clusterSize": 4,
+    "meanHeight": 145,
     "numClusters": 1,
-    "meanHeight": 174,
-    "maxVariance": 16,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
+    "clusterSize": 4,
+    "material": "stone",
+    "block": {
+      "metadata": 4,
+      "name": "Thaumcraft:blockCustomOre"
+    },
+    "template": "normal"
+  },
+  "M-EntropyShard": {
     "dimensions": [
-        -1,
+      -1,
       1
-    ]
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 16,
+    "meanHeight": 85,
+    "numClusters": 1,
+    "clusterSize": 4,
+    "material": "stone",
+    "block": {
+      "metadata": 6,
+      "name": "Thaumcraft:blockCustomOre"
+    },
+    "template": "normal"
+  },
+  "ShinyOre": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 12,
+    "meanHeight": 173,
+    "numClusters": 1,
+    "clusterSize": 2,
+    "material": "stone",
+    "block": {
+      "metadata": 5,
+      "name": "ThermalFoundation:Ore"
+    },
+    "template": "normal"
+  },
+  "Apatite": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 29,
+    "meanHeight": 103,
+    "numClusters": 3,
+    "clusterSize": 8,
+    "material": "stone",
+    "block": "Forestry:resources",
+    "template": "normal"
+  },
+  "M-Diamond": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 90,
+    "meanHeight": 180,
+    "numClusters": 1,
+    "clusterSize": 2,
+    "material": "stone",
+    "block": "minecraft:diamond_ore",
+    "template": "normal"
+  },
+  "M-Emeralds": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 26,
+    "meanHeight": 133,
+    "numClusters": 1,
+    "clusterSize": 3,
+    "material": "stone",
+    "block": "minecraft:emerald_ore",
+    "template": "normal"
+  },
+  "M-Lapis": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 24,
+    "meanHeight": 148,
+    "numClusters": 2,
+    "clusterSize": 4,
+    "material": "stone",
+    "block": "minecraft:lapis_ore",
+    "template": "normal"
+  },
+  "M-Gold": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 24,
+    "meanHeight": 153,
+    "numClusters": 2,
+    "clusterSize": 5,
+    "material": "stone",
+    "block": "minecraft:gold_ore",
+    "template": "normal"
+  },
+  "M-Coal": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 53,
+    "meanHeight": 128,
+    "numClusters": 6,
+    "clusterSize": 6,
+    "material": "stone",
+    "block": "minecraft:coal_ore",
+    "template": "normal"
+  },
+  "M-Iron": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 49,
+    "meanHeight": 123,
+    "numClusters": 10,
+    "clusterSize": 4,
+    "material": "stone",
+    "block": "minecraft:iron_ore",
+    "template": "normal"
+  },
+  "Skystone": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 10,
+    "meanHeight": 175,
+    "numClusters": 1,
+    "clusterSize": 10,
+    "material": "stone",
+    "block": "appliedenergistics2:tile.BlockSkyStone",
+    "template": "normal"
   }
 }

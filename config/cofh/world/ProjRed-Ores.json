@@ -1,59 +1,59 @@
 {
-    "ruby": {
-        "template": "uniform",
-        "block": {
-            "name": "ProjRed|Exploration:projectred.exploration.ore",
-            "metadata": 0
-        },
-        "clusterSize": 7,
-        "numClusters": 3,
-        "minHeight": 17,
-        "maxHeight": 32,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+  "peridot": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxHeight": 64,
+    "minHeight": 49,
+    "numClusters": 3,
+    "clusterSize": 7,
+    "block": {
+      "metadata": 2,
+      "name": "ProjRed|Exploration:projectred.exploration.ore"
     },
-    "sapphire": {
-        "template": "uniform",
-        "block": {
-            "name": "ProjRed|Exploration:projectred.exploration.ore",
-            "metadata": 1
-        },
-        "clusterSize": 7,
-        "numClusters": 3,
-        "minHeight": 33,
-        "maxHeight": 48,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
+    "template": "uniform"
+  },
+  "sapphire": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxHeight": 48,
+    "minHeight": 33,
+    "numClusters": 3,
+    "clusterSize": 7,
+    "block": {
+      "metadata": 1,
+      "name": "ProjRed|Exploration:projectred.exploration.ore"
     },
-    "peridot": {
-        "template": "uniform",
-        "block": {
-            "name": "ProjRed|Exploration:projectred.exploration.ore",
-            "metadata": 2
-        },
-        "clusterSize": 7,
-        "numClusters": 3,
-        "minHeight": 49,
-        "maxHeight": 64,
-        "retrogen": "false",
-        "biomeRestriction": "none",
-        "biomes": [],
-        "dimensionRestriction": "blacklist",
-        "dimensions": [
-            -1,
-            1
-        ]
-    }
+    "template": "uniform"
+  },
+  "ruby": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxHeight": 32,
+    "minHeight": 17,
+    "numClusters": 3,
+    "clusterSize": 7,
+    "block": {
+      "metadata": 0,
+      "name": "ProjRed|Exploration:projectred.exploration.ore"
+    },
+    "template": "uniform"
+  }
 }

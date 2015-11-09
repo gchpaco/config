@@ -1,19 +1,22 @@
 {
   "Zinc": {
-    "template": "normal",
-    "block": {"name": "Steamcraft:steamcraftOre", "metadata": 1},
-    "material": "stone",
-    "clusterSize": 6,
-    "numClusters": 4,
-    "meanHeight": 44,
-    "maxVariance": 3,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
     "dimensions": [
-        -1,
+      -1,
       1
-    ]
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 3,
+    "meanHeight": 44,
+    "numClusters": 4,
+    "clusterSize": 6,
+    "material": "stone",
+    "block": {
+      "metadata": 1,
+      "name": "Steamcraft:steamcraftOre"
+    },
+    "template": "normal"
   }
 }

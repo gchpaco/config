@@ -1,19 +1,22 @@
 {
   "Aluminum": {
-    "template": "normal",
-    "block": {"name": "TConstruct:SearedBrick", "metadata": 5},
-    "material": "stone",
-    "clusterSize": 6,
-    "numClusters": 4,
-    "meanHeight": 56,
-    "maxVariance": 7,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
     "dimensions": [
-        -1,
+      -1,
       1
-    ]
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 7,
+    "meanHeight": 56,
+    "numClusters": 4,
+    "clusterSize": 6,
+    "material": "stone",
+    "block": {
+      "metadata": 5,
+      "name": "TConstruct:SearedBrick"
+    },
+    "template": "normal"
   }
 }

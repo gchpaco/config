@@ -1,19 +1,19 @@
 {
   "Yellorite": {
-    "template": "normal",
-    "block": "BigReactors:YelloriteOre",
-    "material": "stone",
-    "clusterSize": 8,
-    "numClusters": 19,
-    "meanHeight": 5,
-    "maxVariance": 15,
-    "retrogen": "false",
-    "biomeRestriction": "none",
-    "biomes": [],
-    "dimensionRestriction": "blacklist",
     "dimensions": [
-        -1,
+      -1,
       1
-    ]
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "maxVariance": 15,
+    "meanHeight": 5,
+    "numClusters": 19,
+    "clusterSize": 8,
+    "material": "stone",
+    "block": "BigReactors:YelloriteOre",
+    "template": "normal"
   }
 }

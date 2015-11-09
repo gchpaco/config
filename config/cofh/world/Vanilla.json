@@ -119,6 +119,23 @@
       1
     ]
   },
+  "emerald": {
+    "template": "normal",
+    "block": "emerald_ore",
+    "material": "minecraft:stone",
+    "clusterSize": 7,
+    "numClusters": 1,
+    "meanHeight": 12,
+    "maxVariance": 5,
+    "retrogen": "false",
+    "biomeRestriction": "none",
+    "biomes": [],
+    "dimensionRestriction": "blacklist",
+    "dimensions": [
+        -1,
+      1
+    ]
+  },
   "lapis": {
     "template": "normal",
     "block": "lapis_ore",

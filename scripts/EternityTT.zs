@@ -8,5 +8,4 @@ val Emerald = <minecraft:emerald>;
 val Pink = <minecraft:dye:9>;
 
 recipes.remove(<JABBA:hammer>);
-recipes.addShaped(<JABBA:hammer>, [[Iron, Barrel, Iron], [null, Stick, null], [null, Stick, null]]); 
-recipes.addShaped(<BiomesOPlenty:gems:0>, [[Pink, Pink, Pink], [Pink, Emerald, Pink], [Pink, Pink, Pink]]); 
+recipes.addShaped(<JABBA:hammer>, [[Iron, Barrel, Iron], [null, Stick, null], [null, Stick, null]]);

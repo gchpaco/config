@@ -13,7 +13,6 @@ recipes.addShapeless(<Thaumcraft:ItemResource:13> * 4, [<ore:dyeBlack>, <ore:sli
 val silver = <ore:ingotSilver>;
 val steel = <ore:ingotSteel>;
 silver.add(<factorization:silver_ingot>);
-steel.add(<AncientWarfare:steel_ingot>);
 
 // Adding aspects to some items that are lacking them
 val glintweed = <witchery:glintweed>;
@@ -38,8 +37,8 @@ mods.thaumcraft.Aspects.set(blockAlum, "metallum 20, machina 6");
 mods.thaumcraft.Aspects.set(nuggetZinc, "metallum 1");
 mods.thaumcraft.Aspects.set(ingotZinc, "metallum 3, vitreus 1");
 mods.thaumcraft.Aspects.set(blockZinc, "metallum 20, vitreus 6");
- 
-  
+
+
 // FSP brass
 // we use the retarded aobd zinc instead of the extratic zinc because abod is retarded
 //
@@ -107,8 +106,8 @@ recipes.addShaped(<minecraft:hopper>,
  [[structIngot, null, structIngot],
   [structIngot, <minecraft:chest>, structIngot],
   [null, structIngot, null]]);
-  
-  
+
+
 // Oreberry Bush Magic
 
 val bushIron = <TConstruct:ore.berries.one:8>;
@@ -149,4 +148,3 @@ recipes.addShaped(<ExtraUtilities:curtains>*12,
 	[[<ore:blockWool>, null, <ore:blockWool>],
 	 [<ore:blockWool>, null, <ore:blockWool>],
 	 [<ore:blockWool>, null, <ore:blockWool>]]);
-	 

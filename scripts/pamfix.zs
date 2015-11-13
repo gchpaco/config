@@ -3,8 +3,9 @@
 val Stick = <minecraft:stick>;
 val Iron = <minecraft:iron_ingot>;
 
-recipes.remove(<harvestcraft:skilletItem>);
-recipes.addShaped(<harvestcraft:skilletItem>, [[null, Iron, Iron], [null, Iron, Iron], [Stick, null, null]]);
+// Mystery recipe from.. somewhere. RR? Conflicts with M&B
+// recipes.remove(<harvestcraft:skilletItem>);
+// recipes.addShaped(<harvestcraft:skilletItem>, [[null, Iron, Iron], [null, Iron, Iron], [Stick, null, null]]);
  
 #Raspberry
 <ore:listAllberry>.add(<Natura:berry>);

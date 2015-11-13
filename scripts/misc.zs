@@ -193,9 +193,3 @@ recipes.addShaped(<Forestry:stamps:3>*12,
 	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
 	 [null, <ore:pearlEnder>, null]]);
 
-// Pam's skillet conflicts with M&B Iron Mace
-
-recipes.remove(<harvestcraft:skilletItem>);
-recipes.addShaped(<harvestcraft:skilletItem>,
-	[[null, <ore:ingotIron>, <ore:ingotIron>],
-	 [<ore:stickWood>, <ore:ingotIron>, <ore:ingotIron>]]);

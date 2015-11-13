@@ -23,3 +23,20 @@ mods.chisel.Groups.addVariation("marble_slab", <Railcraft:slab:10>);
 mods.chisel.Groups.addVariation("marble_slab", <Railcraft:slab:17>);
 mods.chisel.Groups.addVariation("marble_slab", <Railcraft:slab:25>);
 mods.chisel.Groups.addVariation("marble_slab", <Railcraft:slab:33>);
+
+
+// We have Artifice, ProjRed, and Botania basalt. They should be chiselable.
+
+mods.chisel.Groups.addGroup("basalt"); 
+
+mods.chisel.Groups.addVariation("basalt", <Artifice:tile.artifice.basalt:0>);
+mods.chisel.Groups.addVariation("basalt", <Artifice:tile.artifice.basalt:2>);
+mods.chisel.Groups.addVariation("basalt", <Artifice:tile.artifice.basalt:3>);
+mods.chisel.Groups.addVariation("basalt", <Artifice:tile.artifice.basalt:4>);
+mods.chisel.Groups.addVariation("basalt", <Artifice:tile.artifice.basalt:5>);
+mods.chisel.Groups.addVariation("basalt", <Botania:stone:1>);
+mods.chisel.Groups.addVariation("basalt", <Botania:stone:5>);
+mods.chisel.Groups.addVariation("basalt", <Botania:stone:9>);
+mods.chisel.Groups.addVariation("basalt", <Botania:stone:13>);
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:3>);
+mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:4>);

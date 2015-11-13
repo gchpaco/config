@@ -148,3 +148,54 @@ recipes.addShaped(<ExtraUtilities:curtains>*12,
 	[[<ore:blockWool>, null, <ore:blockWool>],
 	 [<ore:blockWool>, null, <ore:blockWool>],
 	 [<ore:blockWool>, null, <ore:blockWool>]]);
+
+// Artifice ender dust is too free with pearl production. Moving from 4x dust per pearl to 9x.
+recipes.removeShaped(<minecraft:ender_pearl>,
+	[[<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>],
+	 [<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>]]);
+recipes.addShaped(<minecraft:ender_pearl>,
+	[[<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>],
+	 [<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>],
+	 [<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>]]);
+	 
+// Energetic Redstone requires uranium to craft normally. Thorium can be used to make uranium, and is currently useless.
+// Ergo: thorium recipe for energetic redstone.
+
+recipes.addShapeless(<recycling:EnergeticRedstoneDust>*4,
+	[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <Magneticraft:item.dust:8>, <Magneticraft:item.dust:8>]);
+
+	
+// Mail plz
+
+recipes.remove(<Forestry:letters>);
+recipes.addShapeless(<Forestry:letters>,
+	[<minecraft:paper>, <ore:slimeball>]);
+	
+recipes.remove(<Forestry:stamps:*>);
+recipes.addShaped(<Forestry:stamps:0>*12,
+	[[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>],
+	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	 [null, <ore:pearlEnder>, null]]);
+recipes.addShaped(<Forestry:stamps:0>*12,
+	[[<ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>],
+	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	 [null, <ore:pearlEnder>, null]]);
+recipes.addShaped(<Forestry:stamps:1>*12,
+	[[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	 [null, <ore:pearlEnder>, null]]);
+recipes.addShaped(<Forestry:stamps:2>*12,
+	[[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
+	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	 [null, <ore:pearlEnder>, null]]);
+recipes.addShaped(<Forestry:stamps:3>*12,
+	[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+	 [null, <ore:pearlEnder>, null]]);
+
+// Pam's skillet conflicts with M&B Iron Mace
+
+recipes.remove(<harvestcraft:skilletItem>);
+recipes.addShaped(<harvestcraft:skilletItem>,
+	[[null, <ore:ingotIron>, <ore:ingotIron>],
+	 [<ore:stickWood>, <ore:ingotIron>, <ore:ingotIron>]]);

@@ -193,3 +193,11 @@ recipes.addShaped(<Forestry:stamps:3>*12,
 	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
 	 [null, <ore:pearlEnder>, null]]);
 
+// Project Red helpfully lets you use its retarded fluid instead of destabilized redstone, and provides no configuration for this.
+// So, we yank it, and put it back. Because fuck projred's molten redstone.
+
+mods.tconstruct.Smeltery.removeMelting(<minecraft:redstone>);
+mods.tconstruct.Smeltery.addMelting(<minecraft:redstone>, <liquid:redstone> * 100, 2500, <minecraft:redstone_block>);
+mods.tconstruct.Smeltery.removeMelting(<minecraft:redstone_block>);
+mods.tconstruct.Smeltery.addMelting(<minecraft:redstone_block>, <liquid:redstone> * 900, 3000, <minecraft:redstone_block>);
+//mods.tconstruct.Smeltery.addMelting(<ExtraUtilities:color_blockRedstone:4>, <liquid:redstone> * 900, 3000, <ExtraUtilities:color_blockRedstone:4>);

@@ -1,0 +1,13 @@
+{
+    "name": "blockPackedThorium",
+    "default-texture": "packedthorium",
+    "material": "dirt",
+    "hardness": 1,
+    "type": "block",
+	"drops-self": "true",
+	"flammable": "false",
+    "requires-tool": "false",
+    "ore-dictionary": [
+        "blockThorium"
+    ]
+}

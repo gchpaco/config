@@ -201,3 +201,14 @@ mods.tconstruct.Smeltery.addMelting(<minecraft:redstone>, <liquid:redstone> * 10
 mods.tconstruct.Smeltery.removeMelting(<minecraft:redstone_block>);
 mods.tconstruct.Smeltery.addMelting(<minecraft:redstone_block>, <liquid:redstone> * 900, 3000, <minecraft:redstone_block>);
 //mods.tconstruct.Smeltery.addMelting(<ExtraUtilities:color_blockRedstone:4>, <liquid:redstone> * 900, 3000, <ExtraUtilities:color_blockRedstone:4>);
+
+// Thorium dust to thorium dust block. Mostly because Gendustry.
+var dustThorium = <Magneticraft:item.dust:8>;
+
+recipes.addShapeless(<Quadrum:blockPackedThorium>,
+	[dustThorium, dustThorium, dustThorium, 
+	 dustThorium, dustThorium, dustThorium, 
+	 dustThorium, dustThorium, dustThorium]);
+
+recipes.addShapeless(dustThorium*9,
+	[<Quadrum:blockPackedThorium>]);

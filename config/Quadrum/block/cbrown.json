@@ -1,0 +1,11 @@
+{
+    "name": "blockCompressedBrownLimestone",
+    "default-texture": "cbrown",
+    "material": "rock",
+    "hardness": 3,
+	"resistance": 6000,
+    "type": "block",
+	"drops-self": "true",
+	"flammable": "false",
+    "requires-tool": "false"
+}

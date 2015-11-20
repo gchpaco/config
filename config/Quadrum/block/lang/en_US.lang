@@ -1,1 +1,13 @@
 tile.blockPackedThorium.name=Packed Thorium Dust
+tile.blockCompressedBasalt.name=Compressed Basalt Cobblestone
+tile.blockCompressedRedLimestone.name=Compressed Red Limestone Cobblestone
+tile.blockCompressedGreenLimestone.name=Compressed Green Limestone Cobblestone
+tile.blockCompressedBlueLimestone.name=Compressed Blue Limestone Cobblestone
+tile.blockCompressedBrownLimestone.name=Compressed Brown Limestone Cobblestone
+tile.blockCompressedGrayLimestone.name=Compressed Gray Limestone Cobblestone
+tile.blockReCompressedBasalt.name=Double Compressed Basalt Cobblestone
+tile.blockReCompressedRedLimestone.name=Double Compressed Red Limestone Cobblestone
+tile.blockReCompressedGreenLimestone.name=Double Compressed Green Limestone Cobblestone
+tile.blockReCompressedBlueLimestone.name=Double Compressed Blue Limestone Cobblestone
+tile.blockReCompressedBrownLimestone.name=Double Compressed Brown Limestone Cobblestone
+tile.blockReCompressedGrayLimestone.name=Double Compressed Gray Limestone Cobblestone

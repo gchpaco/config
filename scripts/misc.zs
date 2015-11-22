@@ -1,53 +1,5 @@
-// random patches for RR bullshit
-import mods.thaumcraft.Research;
-import mods.thaumcraft.Crucible;
-import mods.thaumcraft.Warp;
 
-// Ability to convert seared stone brick blocks to individual bricks
-recipes.addShapeless(<TConstruct:materials:2> * 4, [<TConstruct:Smeltery:2>]);
-
-// Slimeball oredict for Thaumcraft labels.
-recipes.addShapeless(<Thaumcraft:ItemResource:13> * 4, [<ore:dyeBlack>, <ore:slimeball>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>, <minecraft:paper>]);
-
-// Oredict fixing
-val silver = <ore:ingotSilver>;
-val steel = <ore:ingotSteel>;
-silver.add(<factorization:silver_ingot>);
-
-// Adding aspects to some items that are lacking them
-val glintweed = <witchery:glintweed>;
-val BCoil = <BuildCraft|Energy:blockOil>;
-val BCfuel = <BuildCraft|Energy:blockFuel>;
-val bamboocharcoal = <Growthcraft|Bamboo:grc.bambooCoal>;
-val nuggetAlum = <TConstruct:materials:22>;
-val ingotAlum = <TConstruct:materials:11>;
-val blockAlum = <TConstruct:MetalBlock:6>;
-val nuggetZinc = <Steamcraft:steamcraftNugget:1>;
-val ingotZinc = <Steamcraft:steamcraftIngot:1>;
-val blockZinc = <Steamcraft:blockZinc>;
-
-
-mods.thaumcraft.Aspects.set(glintweed, "lux 1");
-mods.thaumcraft.Aspects.set(BCoil, "vinculum 1, venenum 1, potentia 2");
-mods.thaumcraft.Aspects.set(BCfuel, "machina 1, potentia 3");
-mods.thaumcraft.Aspects.set(bamboocharcoal, "ignis 1, potentia 1");
-mods.thaumcraft.Aspects.set(nuggetAlum, "metallum 1");
-mods.thaumcraft.Aspects.set(ingotAlum, "metallum 3, machina 1");
-mods.thaumcraft.Aspects.set(blockAlum, "metallum 20, machina 6");
-mods.thaumcraft.Aspects.set(nuggetZinc, "metallum 1");
-mods.thaumcraft.Aspects.set(ingotZinc, "metallum 3, vitreus 1");
-mods.thaumcraft.Aspects.set(blockZinc, "metallum 20, vitreus 6");
-
-
-// FSP brass
-// we use the retarded aobd zinc instead of the extratic zinc because abod is retarded
-//
-mods.tconstruct.Smeltery.addAlloy(<liquid:brass.molten> * 64, [<liquid:copper.molten> * 48, <liquid:zinc> * 16]);
-
-//OutputStack, InputFluid, CastStack, ConsumeCast, TickDelay
-mods.tconstruct.Casting.addBasinRecipe(<Steamcraft:blockBrass>, <liquid:brass.molten> * 1296, null, false, 20);
-mods.tconstruct.Casting.addTableRecipe(<Steamcraft:steamcraftIngot:2>, <liquid:brass.molten> * 144, <TConstruct:metalPattern:0>, false, 20);
-
+// TODO: Figure out WTF I was doing here
 
 // Induction Smelter Recipes
 //RF required, InputStack, InputStack2, OutputStack, OutputStack2, Chance for OutputStack2 //The last two are optional
@@ -59,77 +11,6 @@ mods.tconstruct.Casting.addTableRecipe(<Steamcraft:steamcraftIngot:2>, <liquid:b
 
 
 
-// Bucket Magic
-
-// First we make an oredict of a bunch of oredicts
-// Not all ingots were added, a) because lazy, b) because not all metals seem appropriate
-// kinda tempted to yank Copper, Tin, and Zinc from there as direct options
-//
-val structIngot = <ore:ingotStructural>;
-<ore:ingotStructural>.addAll(<ore:ingotIron>);
-<ore:ingotStructural>.addAll(<ore:ingotCopper>);
-<ore:ingotStructural>.addAll(<ore:ingotTin>);
-<ore:ingotStructural>.addAll(<ore:ingotZinc>);
-<ore:ingotStructural>.addAll(<ore:ingotBronze>);
-<ore:ingotStructural>.addAll(<ore:ingotBrass>);
-<ore:ingotStructural>.addAll(<ore:ingotSteel>);
-<ore:ingotStructural>.addAll(<ore:ingotInvar>);
-<ore:ingotStructural>.addAll(<ore:ingotNickel>);
-<ore:ingotStructural>.addAll(<ore:ingotLead>);
-<ore:ingotStructural>.addAll(<ore:ingotAluminum>);
-<ore:ingotStructural>.addAll(<ore:ingotAluminumBrass>);
-<ore:ingotStructural>.addAll(<ore:ingotAlumite>);
-<ore:ingotStructural>.addAll(<ore:ingotObsidian>);
-
-
-
-// Now magic bucket recipe happens.
-//
-recipes.removeShaped(<minecraft:bucket>);
-recipes.addShaped(<minecraft:bucket>,
- [[null, null, null],
-  [structIngot, null, structIngot],
-  [null, structIngot, null]]);
-
-// For added lols, magic piston recipe.
-//
-recipes.removeShaped(<minecraft:piston>);
-recipes.addShaped(<minecraft:piston>,
- [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
-  [<ore:cobblestone>, structIngot, <ore:cobblestone>],
-  [<ore:cobblestone>, <ore:dustRedstone>, <ore:cobblestone>]]);
-
-// hoppers
-//
-recipes.removeShaped(<minecraft:hopper>);
-recipes.addShaped(<minecraft:hopper>,
- [[structIngot, null, structIngot],
-  [structIngot, <minecraft:chest>, structIngot],
-  [null, structIngot, null]]);
-
-
-// Oreberry Bush Magic
-
-val bushIron = <TConstruct:ore.berries.one:8>;
-val bushGold = <TConstruct:ore.berries.one:9>;
-val bushCopper = <TConstruct:ore.berries.one:10>;
-val bushTin = <TConstruct:ore.berries.one:11>;
-val bushAluminum = <TConstruct:ore.berries.two:8>;
-
-
-//Infusion recipes
-//ResearchKey, MainInputStack, ArrayOfInputStacks, AspectsList, ResultStack, Instability
-// mods.thaumcraft.Infusion.addRecipe("INFUSION", <minecraft:water_bucket>, [<minecraft:dirt>, <minecraft:wheat_seeds>], "terra 1, victus 1, arbor 25", <minecraft:sapling>, 15);
-
-
-// Storage drawers has opinions about oredictionary conversion
-
-mods.storagedrawers.OreDictionaryWhitelist.add("nuggetAluminum");
-mods.storagedrawers.OreDictionaryWhitelist.add("nuggetAluminium");
-mods.storagedrawers.OreDictionaryWhitelist.add("nuggetTin");
-mods.storagedrawers.OreDictionaryWhitelist.add("nuggetCopper");
-
-
 
 // Immersive Engineering Creosote Fix
 
@@ -138,71 +19,24 @@ val IEcreosote = <ImmersiveEngineering:fluidContainers:0>;
 recipes.addShaped(<Railcraft:part.tie>,
 	[[null, null, null],
 	 [null, IEcreosote, null],
-	 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]]);
+	 [<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
+	]);
 
 
-// Solve argument between Malsis and ExU
 
-recipes.removeShaped(<ExtraUtilities:curtains>);
-recipes.addShaped(<ExtraUtilities:curtains>*12,
-	[[<ore:blockWool>, null, <ore:blockWool>],
-	 [<ore:blockWool>, null, <ore:blockWool>],
-	 [<ore:blockWool>, null, <ore:blockWool>]]);
-
-// Artifice ender dust is too free with pearl production. Moving from 4x dust per pearl to 9x.
-recipes.removeShaped(<minecraft:ender_pearl>,
-	[[<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>],
-	 [<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>]]);
-recipes.addShaped(<minecraft:ender_pearl>,
-	[[<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>],
-	 [<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>],
-	 [<Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>, <Artifice:item.artifice.resource:2>]]);
-	 
 // Energetic Redstone requires uranium to craft normally. Thorium can be used to make uranium, and is currently useless.
 // Ergo: thorium recipe for energetic redstone.
 
 recipes.addShapeless(<recycling:EnergeticRedstoneDust>*4,
 	[<minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>, <Magneticraft:item.dust:8>, <Magneticraft:item.dust:8>]);
+	
+// While we're at it, let's keep storage drawers from eating energetic redstone
+
+mods.storagedrawers.OreDictionaryBlacklist.add("dustRedstone");
+
 
 	
-// Mail plz
-
-recipes.remove(<Forestry:letters>);
-recipes.addShapeless(<Forestry:letters>,
-	[<minecraft:paper>, <ore:slimeball>]);
-	
-recipes.remove(<Forestry:stamps:*>);
-recipes.addShaped(<Forestry:stamps:0>*12,
-	[[<ore:gemApatite>, <ore:gemApatite>, <ore:gemApatite>],
-	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
-	 [null, <ore:pearlEnder>, null]]);
-recipes.addShaped(<Forestry:stamps:0>*12,
-	[[<ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>],
-	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
-	 [null, <ore:pearlEnder>, null]]);
-recipes.addShaped(<Forestry:stamps:1>*12,
-	[[<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
-	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
-	 [null, <ore:pearlEnder>, null]]);
-recipes.addShaped(<Forestry:stamps:2>*12,
-	[[<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
-	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
-	 [null, <ore:pearlEnder>, null]]);
-recipes.addShaped(<Forestry:stamps:3>*12,
-	[[<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-	 [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
-	 [null, <ore:pearlEnder>, null]]);
-
-// Project Red helpfully lets you use its retarded fluid instead of destabilized redstone, and provides no configuration for this.
-// So, we yank it, and put it back. Because fuck projred's molten redstone.
-
-mods.tconstruct.Smeltery.removeMelting(<minecraft:redstone>);
-mods.tconstruct.Smeltery.addMelting(<minecraft:redstone>, <liquid:redstone> * 100, 2500, <minecraft:redstone_block>);
-mods.tconstruct.Smeltery.removeMelting(<minecraft:redstone_block>);
-mods.tconstruct.Smeltery.addMelting(<minecraft:redstone_block>, <liquid:redstone> * 900, 3000, <minecraft:redstone_block>);
-//mods.tconstruct.Smeltery.addMelting(<ExtraUtilities:color_blockRedstone:4>, <liquid:redstone> * 900, 3000, <ExtraUtilities:color_blockRedstone:4>);
-
-// Thorium dust to thorium dust block. Mostly because Gendustry.
+// Thorium dust to thorium dust block. Mostly because Gendustry has limited options for mutagen.
 var dustThorium = <Magneticraft:item.dust:8>;
 
 recipes.addShapeless(<Quadrum:blockPackedThorium>,
@@ -213,97 +47,36 @@ recipes.addShapeless(<Quadrum:blockPackedThorium>,
 recipes.addShapeless(dustThorium*9,
 	[<Quadrum:blockPackedThorium>]);
 
-// Compressed blocks for Artifice cobbles
 
-var artiBasalt = <Artifice:tile.artifice.basalt:1>;
-var cBasalt = <Quadrum:blockCompressedBasalt>;
-var ccBasalt = <Quadrum:blockReCompressedBasalt>;
-var artiGray = <Artifice:tile.artifice.limestone.gray:1>;
-var cGray = <Quadrum:blockCompressedGrayLimestone>;
-var ccGray = <Quadrum:blockReCompressedGrayLimestone>;
-var artiGreen = <Artifice:tile.artifice.limestone.greenish:1>;
-var cGreen = <Quadrum:blockCompressedGreenLimestone>;
-var ccGreen = <Quadrum:blockReCompressedGreenLimestone>;
-var artiRed = <Artifice:tile.artifice.limestone.reddish:1>;
-var cRed = <Quadrum:blockCompressedRedLimestone>;
-var ccRed = <Quadrum:blockReCompressedRedLimestone>;
-var artiBlue = <Artifice:tile.artifice.limestone.bluish:1>;
-var cBlue = <Quadrum:blockCompressedBlueLimestone>;
-var ccBlue = <Quadrum:blockReCompressedBlueLimestone>;
-var artiBrown = <Artifice:tile.artifice.limestone.brown:1>;
-var cBrown = <Quadrum:blockCompressedBrownLimestone>;
-var ccBrown = <Quadrum:blockReCompressedBrownLimestone>;
+// Presumably this conflicted with something in RR at some point, since it was in the 'eternity time torches'
+// script. This is no longer an issue, but we're keeping the recipe because it's DEFINITELY not going to clash
+// and works for the mod.
+val Iron = <minecraft:iron_ingot>;
+val Stick = <minecraft:stick>;
+val Barrel = <JABBA:barrel>;
+
+recipes.remove(<JABBA:hammer>);
+recipes.addShaped(<JABBA:hammer>, [[Iron, Barrel, Iron], [null, Stick, null], [null, Stick, null]]);
 
 
-recipes.addShapeless(cBasalt,
-	[artiBasalt, artiBasalt, artiBasalt, 
-	 artiBasalt, artiBasalt, artiBasalt, 
-	 artiBasalt, artiBasalt, artiBasalt]);
-recipes.addShapeless(artiBasalt * 9, [cBasalt]);
+// Missing oredict entries
 
-recipes.addShapeless(ccBasalt,
-	[cBasalt, cBasalt, cBasalt, 
-	 cBasalt, cBasalt, cBasalt, 
-	 cBasalt, cBasalt, cBasalt]);
-recipes.addShapeless(cBasalt * 9, [ccBasalt]);
+val blockSalt = <ore:blockSalt>;
+blockSalt.add(<harvestcraft:spamcompressedsaltBlockalt>);
 
-recipes.addShapeless(cGray,
-	[artiGray, artiGray, artiGray, 
-	 artiGray, artiGray, artiGray, 
-	 artiGray, artiGray, artiGray]);
-recipes.addShapeless(artiGray * 9, [cGray]);
+// oreberry list
+<ore:nuggetHeeEndium>.add(<aobd:oreberryHeeEndium>);
+<ore:nuggetUranium>.add(<aobd:oreberryUranium>);
+<ore:nuggetLead>.add(<aobd:oreberryLead>);
+<ore:nuggetNickel>.add(<aobd:oreberryNickel>);
+<ore:nuggetPlatinum>.add(<aobd:oreberryPlatinum>);
+<ore:nuggetSilver>.add(<aobd:oreberrySilver>);
+<ore:nuggetMithril>.add(<aobd:oreberryMithril>);
+<ore:nuggetCobalt>.add(<aobd:oreberryCobalt>);
+<ore:nuggetArdite>.add(<aobd:oreberryArdite>);
+<ore:nuggetZinc>.add(<aobd:oreberryZinc>);
+<ore:nuggetTungsten>.add(<aobd:oreberryTungsten>);
+<ore:nuggetFzDarkIron>.add(<aobd:oreberryFzDarkIron>);
 
-recipes.addShapeless(ccGray,
-	[cGray, cGray, cGray, 
-	 cGray, cGray, cGray, 
-	 cGray, cGray, cGray]);
-recipes.addShapeless(cGray * 9, [ccGray]);
-
-recipes.addShapeless(cGreen,
-	[artiGreen, artiGreen, artiGreen, 
-	 artiGreen, artiGreen, artiGreen, 
-	 artiGreen, artiGreen, artiGreen]);
-recipes.addShapeless(artiGreen * 9, [cGreen]);
-
-recipes.addShapeless(ccGreen,
-	[cGreen, cGreen, cGreen, 
-	 cGreen, cGreen, cGreen, 
-	 cGreen, cGreen, cGreen]);
-recipes.addShapeless(cGreen * 9, [ccGreen]);
-
-recipes.addShapeless(cRed,
-	[artiRed, artiRed, artiRed, 
-	 artiRed, artiRed, artiRed, 
-	 artiRed, artiRed, artiRed]);
-recipes.addShapeless(artiRed * 9, [cRed]);
-
-recipes.addShapeless(ccRed,
-	[cRed, cRed, cRed, 
-	 cRed, cRed, cRed, 
-	 cRed, cRed, cRed]);
-recipes.addShapeless(cRed * 9, [ccRed]);
-
-recipes.addShapeless(cBlue,
-	[artiBlue, artiBlue, artiBlue, 
-	 artiBlue, artiBlue, artiBlue, 
-	 artiBlue, artiBlue, artiBlue]);
-recipes.addShapeless(artiBlue * 9, [cBlue]);
-
-recipes.addShapeless(ccBlue,
-	[cBlue, cBlue, cBlue, 
-	 cBlue, cBlue, cBlue, 
-	 cBlue, cBlue, cBlue]);
-recipes.addShapeless(cBlue * 9, [ccBlue]);
-
-recipes.addShapeless(cBrown,
-	[artiBrown, artiBrown, artiBrown, 
-	 artiBrown, artiBrown, artiBrown, 
-	 artiBrown, artiBrown, artiBrown]);
-recipes.addShapeless(artiBrown * 9, [cBrown]);
-
-recipes.addShapeless(ccBrown,
-	[cBrown, cBrown, cBrown, 
-	 cBrown, cBrown, cBrown, 
-	 cBrown, cBrown, cBrown]);
-recipes.addShapeless(cBrown * 9, [ccBrown]);
+mods.storagedrawers.OreDictionaryWhitelist.add("nuggetFzDarkIron");
 

@@ -1,0 +1,19 @@
+{
+  "Bonus Emerald": {
+    "dimensions": [
+      -1,
+      1
+    ],
+    "dimensionRestriction": "blacklist",
+    "biomes": [],
+    "biomeRestriction": "none",
+    "retrogen": "false",
+    "minHeight": 5,
+    "maxHeight": 15,
+    "numClusters": 1,
+    "clusterSize": 3,
+    "material": "minecraft:stone",
+    "block": "minecraft:emerald_ore",
+    "template": "uniform"
+  }
+}

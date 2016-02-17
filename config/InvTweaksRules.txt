@@ -4,20 +4,32 @@
 |==============================================================|
 
 ====== [ SETTINGS ] ======
-
+Mining:
+D LOCKED
 D1 sword
 D2 pickaxe
 D3 lighting
-D4 hammer
+D4 aoedig
 D5 crafting
-D6 utilityObject
+D6 wand
 D7 edibleFood
-D8 shovel
-D9 bow
+D9 potion
 
 A1-C4 bags
 B5-C5 bags
 C9 ammunition
+
+Fighting:
+D LOCKED
+D1 sword
+D2 pickaxe
+D3 lighting
+D4 aoedps
+D5 rangedaoe
+D6 wand
+D7 edibleFood
+D8 ranged
+D9 potion
 
 ======== [ GETTING STARTED ] ========
 

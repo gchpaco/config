@@ -27,15 +27,16 @@
     <equipment>
         <weapon>
             <sword>
+                <thunderSword id="Botania:thunderSword"/>
                 <boundSword id="AWWayofTime:energySword"/>
 		<caneSword id="witchery:canesword"/>
                 <darkSteelSword id="EnderIO:item.darkSteel_sword"/>
                 <fluxSword id="RedstoneArsenal:tool.swordFlux"/>
                 <battlesign id="TConstruct:battlesign"/>
+                <starSword id="Botania:starSword"/>
 		<terraSword id="Botania:terraSword"/>
 		<elementiumSword id="Botania:elementiumSword"/>
 		<manasteelSword id="Botania:manasteelSword"/>
-                <scythe id="TConstruct:scythe"/>
                 <cutlass id="TConstruct:cutlass"/>
                 <broadsword id="TConstruct:broadsword"/>
                 <longsword id="TConstruct:longsword"/>
@@ -47,22 +48,39 @@
                 <goldSword id="golden_sword"/>
                 <frypan id="TConstruct:frypan"/>
                 <woodSword id="wooden_sword"/>
+                <aoedps>
+                    <scythe id="TConstruct:scythe"/>
+                    <zephyr id="Thaumcraft:ItemSwordElemental"/>
+                </aoedps>
             </sword>
             <munition>
-	        <bow>
-                    <longbow id="TConstruct:LongBow"/>
-		    <livingwoodBow id="Botania:livingwoodBow"/>
-		    <crystalBow id="Botania:crystalBow"/>
-                    <fluxBow id="RedstoneArsenal:tool.bowFlux"/>
-		    <pistol id="Steamcraft:pistol"/>
-		    <musket id="Steamcraft:musket"/>
-		    <blunderbuss id="Steamcraft:blunderbuss"/>
-                    <crossbow id="TConstruct:Crossbow"/>
-                    <shortbow id="TConstruct:ShortBow"/>
-                    <invarBow id="ThermalExpansion:tool.bowInvar"/>
-                    <vanillaBow id="bow"/>
-		    <javelins id="TConstruct:Javelin"/>
-		</bow>
+                <ranged>
+	            <bow>
+                        <longbow id="TConstruct:LongBow"/>
+		        <livingwoodBow id="Botania:livingwoodBow"/>
+		        <crystalBow id="Botania:crystalBow"/>
+                        <fluxBow id="RedstoneArsenal:tool.bowFlux"/>
+		        <crossbow id="TConstruct:Crossbow"/>
+                        <shortbow id="TConstruct:ShortBow"/>
+                        <invarBow id="ThermalExpansion:tool.bowInvar"/>
+                        <vanillaBow id="bow"/>
+		    </bow>
+                    <javelins id="TConstruct:Javelin"/>
+                    <chakram id="Botania:thornChakram"/>
+                    <gun>
+                        <revolver id="ImmersiveEngineering:revolver"/>
+		        <musket id="Steamcraft:musket"/>
+                        <pistol id="Steamcraft:pistol"/>
+                        <foundryRevolver id="foundry:foundryRevolver"/>
+                    </gun>
+                    <rangedaoe>
+		        <chemThrower id="ImmersiveEngineering:chemthrower"/>
+		        <blunderbuss id="Steamcraft:blunderbuss"/>
+                        <foundryShotgun id="foundry:foundryShotgun"/>
+                        <unstableReservoid id="Botania:missileRod"/>
+  	                <brewBag id="witchery:brewbag"/>
+                    </rangedaoe>
+                </ranged>
 		<ammunition>
 		    <tconbolt id="TConstruct:BoltAmmo"/>
 		    <tconarrow id="TConstruct:ArrowAmmo"/>
@@ -128,7 +146,15 @@
                 <stoneHoe id="iron_hoe"/>
                 <woodHoe id="wooden_hoe"/>
             </hoe>
-	    <hammer id="TConstruct:hammer"/>
+	    <aoedig>
+	        <hammer id="TConstruct:hammer"/>
+		<ieDrill id="ImmersiveEngineering:drill"/>
+	    </aoedig>
+	    <wand>
+	        <tcWand id="Thaumcraft:WandCasting"/>
+	        <aeWand id="arcane_engineering:wand_upgradeable"/>
+	        <mysticBranch id="witchery:mysticbranch"/>
+	    </wand>
             <shears id="shears"/>
             <fishingRod id="fishing_rod"/>
             <carrotOnAStick id="carrot_on_a_stick"/>
@@ -485,8 +511,8 @@
                 <torch id="torch"/>
                 <lamp id="redstone_lamp"/>
                 <redstoneLamp id="redstone_lamp"/>
-                <lamp id="lit_redstone_lamp"/>
-                <redstoneLamp id="lit_redstone_lamp"/>
+                <litLamp id="lit_redstone_lamp"/>
+                <litRedstoneLamp id="lit_redstone_lamp"/>
             </lighting>
             <pistons>
                 <piston id="piston"/>
@@ -653,6 +679,7 @@
 	    <lighting>
                 <sojournerStaff id="xreliquary:sojourner_staff"/>
 	        <bloodLamp id="AWWayofTime:itemBloodLightSigil"/>
+                <torchRod id="shadowfox_botany:rainbowLightRod"/>
                 <torch id="torch"/>
                 <ticoTorch id="TConstruct:decoration.stonetorch"/>
 	    </lighting>
@@ -762,6 +789,8 @@
         </decoration>
         <food>
             <edibleFood>
+                <botaniaRelicFood id="Botania:infiniteFruit"/>
+	        <spiceLunchbox id="SpiceOfLife:lunchbox"/>
                 <mushroomStew id="mushroom_stew"/>
                 <cookedFood>
                     <cookedPorkchop id="cooked_porkchop"/>
@@ -1017,6 +1046,12 @@
             </splashPotion>
             <bottleOEnchanting id="experience_bottle"/>
             <bottleEnchanting id="experience_bottle"/>
+	    <gcBag id="Growthcraft|Cellar:grc.waterBag"/>
+	    <botaniaVial id="Botania:brewVial"/>
+	    <botaniaFlask id="Botania:brewFlask"/>
+	    <bloodMagicFlask id="AWWayofTime:alchemyFlask"/>
+	    <witcheryBrew id="witchery:brewbottle"/>
+  	    <brewBag id="witchery:brewbag"/>
         </potion>
         <glassBottle id="glass_bottle"/>
         <potionIngredient>

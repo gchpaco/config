@@ -22,7 +22,7 @@ dimensionID = 1
 #Special data for templateFloating
 
 #folder: the folder containing the templates
-folder = snowCastles
+folder = DungeonConfig/Building/snowCastles
 
 #posY: the height to spawn the building
 posY = 30

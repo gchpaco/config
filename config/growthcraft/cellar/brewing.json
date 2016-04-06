@@ -1,147 +1,292 @@
-[
-  {
-    "comment": "",
-    "item": {
+{
+  "comment": "",
+  "data": [
+    {
       "comment": "",
-      "mod_id": "Growthcraft|Cellar",
-      "name": "grc.yeast",
-      "amount": 1,
-      "meta": 2
+      "item": {
+        "comment": "Bayanus Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 2
+      },
+      "input_fluid": {
+        "comment": "Grape Wine",
+        "name": "grc.grapewine1",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Port Wine",
+        "name": "grc.grapewine5",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.3,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 20
     },
-    "input_fluid": {
+    {
       "comment": "",
-      "name": "grc.grapewine1",
-      "amount": 40
+      "item": {
+        "comment": "Wheat",
+        "mod_id": "minecraft",
+        "name": "wheat",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Ale",
+        "name": "grc.hopale4",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.3,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
     },
-    "output_fluid": {
+    {
       "comment": "",
-      "name": "grc.grapewine5",
-      "amount": 40
+      "item": {
+        "comment": "Hops",
+        "mod_id": "Growthcraft|Hops",
+        "name": "grc.hops",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Ale",
+        "name": "grc.hopale4",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Ale",
+        "name": "grc.hopale0",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.0,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
     },
-    "residue": {
-      "pomace": 0.3,
+    {
       "comment": "",
-      "mod_id": "minecraft",
-      "name": "dye",
-      "amount": 1,
-      "meta": 15
+      "item": {
+        "comment": "Lager Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 1
+      },
+      "input_fluid": {
+        "comment": "Ale",
+        "name": "grc.hopale4",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager",
+        "name": "grc.lager0",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.0,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
     },
-    "time": 20
-  },
-  {
-    "comment": "",
-    "item": {
+    {
       "comment": "",
-      "mod_id": "minecraft",
-      "name": "wheat",
-      "amount": 1,
-      "meta": 0
+      "item": {
+        "comment": "Rice Grain",
+        "mod_id": "Growthcraft|Rice",
+        "name": "grc.rice",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake0",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.2,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
     },
-    "input_fluid": {
+    {
       "comment": "",
-      "name": "water",
-      "amount": 40
+      "item": {
+        "comment": "Pam's Rice",
+        "mod_id": "harvestcraft",
+        "name": "riceItem",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake0",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.2,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
     },
-    "output_fluid": {
+    {
       "comment": "",
-      "name": "grc.hopale4",
-      "amount": 40
+      "item": {
+        "comment": "Thistle",
+        "mod_id": "Growthcraft|Milk",
+        "name": "grcmilk.Thistle",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 1000
+      },
+      "output_fluid": {
+        "comment": "Rennet",
+        "name": "grcmilk.rennet",
+        "amount": 1000
+      },
+      "time": 1200
     },
-    "residue": {
-      "pomace": 0.3,
+    {
       "comment": "",
-      "mod_id": "minecraft",
-      "name": "dye",
-      "amount": 1,
-      "meta": 15
+      "item": {
+        "comment": "Stomach",
+        "mod_id": "Growthcraft|Milk",
+        "name": "grcmilk.Stomach",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 1000
+      },
+      "output_fluid": {
+        "comment": "Rennet",
+        "name": "grcmilk.rennet",
+        "amount": 1000
+      },
+      "time": 1200
     },
-    "time": 20
-  },
-  {
-    "comment": "",
-    "item": {
+    {
       "comment": "",
-      "mod_id": "Growthcraft|Hops",
-      "name": "grc.hops",
-      "amount": 1,
-      "meta": 0
+      "item": {
+        "comment": "Sugar",
+        "mod_id": "minecraft",
+        "name": "sugar",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Skim Milk",
+        "name": "grcmilk.skimmilk",
+        "amount": 250
+      },
+      "output_fluid": {
+        "comment": "Pasteurized Milk",
+        "name": "grcmilk.pasteurizedmilk",
+        "amount": 250
+      },
+      "residue": {
+        "pomace": 1.0,
+        "comment": "Starter Culture",
+        "mod_id": "Growthcraft|Milk",
+        "name": "grcmilk.StarterCulture",
+        "amount": 1,
+        "meta": 0
+      },
+      "time": 1200
     },
-    "input_fluid": {
-      "comment": "",
-      "name": "grc.hopale4",
-      "amount": 40
+    {
+      "comment": "Hack to make salt water accessible",
+      "item": {
+        "comment": "Pam's salt",
+        "mod_id": "harvestcraft",
+        "name": "saltItem",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 1000
+      },
+      "output_fluid": {
+        "comment": "Salt water",
+        "name": "grccore.saltwater",
+        "amount": 1000
+      },
+      "time": 1200
     },
-    "output_fluid": {
-      "comment": "",
-      "name": "grc.hopale0",
-      "amount": 40
-    },
-    "residue": {
-      "pomace": 0.0,
-      "comment": "",
-      "mod_id": "minecraft",
-      "name": "dye",
-      "amount": 1,
-      "meta": 15
-    },
-    "time": 20
-  },
-  {
-    "comment": "",
-    "item": {
-      "comment": "",
-      "mod_id": "Growthcraft|Cellar",
-      "name": "grc.yeast",
-      "amount": 1,
-      "meta": 1
-    },
-    "input_fluid": {
-      "comment": "",
-      "name": "grc.hopale4",
-      "amount": 40
-    },
-    "output_fluid": {
-      "comment": "",
-      "name": "grc.lager0",
-      "amount": 40
-    },
-    "residue": {
-      "pomace": 0.0,
-      "comment": "",
-      "mod_id": "minecraft",
-      "name": "dye",
-      "amount": 1,
-      "meta": 15
-    },
-    "time": 20
-  },
-  {
-    "comment": "",
-    "item": {
-      "comment": "",
-      "mod_id": "Growthcraft|Rice",
-      "name": "grc.rice",
-      "amount": 1,
-      "meta": 0
-    },
-    "input_fluid": {
-      "comment": "",
-      "name": "water",
-      "amount": 25
-    },
-    "output_fluid": {
-      "comment": "",
-      "name": "grc.ricesake0",
-      "amount": 25
-    },
-    "residue": {
-      "pomace": 0.2,
-      "comment": "",
-      "mod_id": "minecraft",
-      "name": "dye",
-      "amount": 1,
-      "meta": 15
-    },
-    "time": 20
-  }
-]
+    {
+      "comment": "Hack to make salt water accessible",
+      "item": {
+        "comment": "Magneticraft salt",
+        "mod_id": "Magneticraft",
+        "name": "item.dustSalt",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 1000
+      },
+      "output_fluid": {
+        "comment": "Salt water",
+        "name": "grccore.saltwater",
+        "amount": 1000
+      },
+      "time": 1200
+    }
+  ]
+}

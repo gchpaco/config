@@ -3,6 +3,7 @@ enderPearl = minecraft:ender_pearl,5,0,60
 diamond = minecraft:diamond,4,0,50
 emerald= minecraft:emerald,4,0,30
 goldenApple = minecraft:golden_apple,3,0,20
+notchapple = minecraft:golden_apple,1,1,5
 
 teleportStone = chocolateQuest:teleportStone,1,0,20
 elementStone = chocolateQuest:elementStone,1,0,10
@@ -18,3 +19,40 @@ rustedSwordAndShield = chocolateQuest:rustedSword,1,0,1
 rustedBigSword = chocolateQuest:rustedBigSword,1,0,1
 rustedDagger = chocolateQuest:rustedDagger,1,0,1
 rustedSpear = chocolateQuest:rustedSpear,1,0,1
+
+crystalbow = Botania:crystalBow,1,0,5
+t2manaring = Botania:manaRingGreater, 1,990,5
+redstonebow = RedstoneArsenal:tool.bowFlux, 1, 0, 5
+guidingstring = WitchingGadgets:item.WG_Material, 1,11,5
+
+silverwoodrod = Thaumcraft:WandRod,1,2,10
+silverwoodstaff = Thaumcraft:WandRod1,52,10
+thaumiumcap = Thaumcraft:WandCap,2,2,10
+collarofpain = ForbiddenMagic:SubCollar, 1, 0, 5
+travellingtrunk = Thaumcraft:TrunkSpawner, 1, 0, 5
+balancedshard = Thaumcraft:ItemShard,8,6,10
+
+
+IEblueprint2 = ImmersiveEngineering:blueprint,1,1,5
+IEblueprint3 = ImmersiveEngineering:blueprint,1,1,5
+
+voidcrowbar = Railcraft:tool.crowbar.void,1,0,10
+
+redheart = TConstruct:heartCanister,1,2,10
+yellowheart = TConstruct:heartCanister,1,3,1
+
+uncommontreasure = Thaumcraft:ItemLootBag,4,1,10
+raretreasure = Thaumcraft:ItemLootBag,2,2,1
+
+resonantsatchel = ThermalExpansion:satchel,1,4,10
+
+greeninfinityorb = arsmagica2:rune,1,18,10
+redinfinityorb = arsmagica2:rune,1,19,1
+
+silkennectar = Growthcraft|Apples:grc.appleCider,4, 4, 10
+mead = Growthcraft|Bees:grc.honeyMead,4, 4, 10
+wine = Growthcraft|Grapes:grc.grapeWine,4, 5, 10
+ambrosia = Growthcraft|Grapes:grc.grapeWine,4, 5, 10
+ale = Growthcraft|Hops:grc.hopAle,4, 5, 10
+lager = Growthcraft|Hops:grc.lager,4, 4, 10
+sake = Growthcraft|Rice:grc.riceSake,4, 4, 10

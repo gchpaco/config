@@ -36,3 +36,32 @@ diamondSpear = chocolateQuest:spearDiamond,1,0,20
 
 manualShoot = chocolateQuest:manualshoot,1,0,2
 hookSword = chocolateQuest:hookSword,1,0,1
+
+foundrybarrel = foundry:foundryComponent,1,5,10
+foundryrevdrum = foundry:foundryComponent,1,6,10
+foundryrevframe = foundry:foundryComponent,1,7,10
+foundryshotpump = foundry:foundryComponent,1,16,10
+foundryshotframe = foundry:foundryComponent,1,17,10
+foundryround = foundry:foundryRound,1,0,10
+foundryAPround = foundry:foundryRoundAP,1,0,2
+foundryshell = foundry:foundryShell,1,0,10
+foundryAPshell = foundry:foundryShellAP,1,0,2
+
+thaumaxe = Thaumcraft:ItemAxeThaumium,1,0,10
+thaumsword = Thaumcraft:ItemSwordThaumium,1,0,10
+zephyrsword = Thaumcraft:ItemSwordElemental,1,0,5
+bonebow = Thaumcraft:ItemBowBone,1,0,5
+skulltaker = ForbiddenMagic:SkullAxe,1,0,5
+
+livingwoodbow = Botania:livingwoodBow,1,0,10
+
+darksteelboots = EnderIO:item.darkSteel_boots,1,0,10
+darksteelsword = EnderIO:item.darkSteel_sword,1,0,10
+
+steelhelmet = Railcraft:armor.steel.helmet,1,0,10
+steelboots = Railcraft:armor.steel.boots,1,0,10
+steellegs = Railcraft:armor.steel.legs,1,0,10
+steelplate = Railcraft:armor.steel.plate,1,0,10
+crowbar = Railcraft:tool.crowbar,1,0,10
+steelcrowbar = Railcraft:tool.crowbar.reinforced,1,0,5
+steelsword = Railcraft:tool.steel.sword,1,0,10

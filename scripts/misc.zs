@@ -34,6 +34,10 @@ recipes.addShapeless(<recycling:EnergeticRedstoneDust>*4,
 
 mods.storagedrawers.OreDictionaryBlacklist.add("dustRedstone");
 
+// Meanwhile, we would like to convert between artifice/magneticraft ores in said drawers
+
+mods.storagedrawers.OreDictionaryWhitelist.add("oreUranium");
+
 
 	
 // Thorium dust to thorium dust block. Mostly because Gendustry has limited options for mutagen.
@@ -65,7 +69,7 @@ val blockSalt = <ore:blockSalt>;
 blockSalt.add(<harvestcraft:spamcompressedsaltBlockalt>);
 
 // oreberry list
-<ore:nuggetHeeEndium>.add(<aobd:oreberryHeeEndium>);
+//<ore:nuggetHeeEndium>.add(<aobd:oreberryHeeEndium>);
 <ore:nuggetUranium>.add(<aobd:oreberryUranium>);
 <ore:nuggetLead>.add(<aobd:oreberryLead>);
 <ore:nuggetNickel>.add(<aobd:oreberryNickel>);

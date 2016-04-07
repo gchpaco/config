@@ -686,6 +686,7 @@
             <flintAndSteel id="flint_and_steel"/>
 	    <crafting>
 	        <craftinghalo id="Botania:craftingHalo"/>
+		<autocraftinghalo id="Botania:autocraftingHalo"/>
 		<dualCrafter id="ganyssurface:portableDualWorkTable"/>
                 <workbenchBackpack id="Backpack:workbenchbackpack"/>
                 <pocketCraftingTable id="factorization:tool/pocket_crafting_table"/>

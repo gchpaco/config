@@ -65,3 +65,8 @@ eartharrow = Thaumcraft:PrimalArrow,16,3,14
 orderarrow = Thaumcraft:PrimalArrow,16,4,14
 entropyarrow = Thaumcraft:PrimalArrow,16,5,14
 fullguardpattern = TConstruct:woodPattern,1,22,16
+
+tribow = TwilightForest:item.tripleBow, 1, 0, 5
+seekerbow = TwilightForest:item.seekerBow,1,0,7
+icebow = TwilightForest:item.iceBow,1,0,10
+enderbow = TwilightForest:item.enderBow,1,0,2

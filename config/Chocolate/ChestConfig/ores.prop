@@ -45,3 +45,4 @@ electrum = ThermalFoundation:material,4,71,30
 signalum = ThermalFoundation:material,4,74,16
 enderium = ThermalFoundation:material,4,76,5
 PRredalloy = ProjRed|Core:projectred.core.part,6,10,37
+oremagnet = TwilightForest:item.oreMagnet,1,0,5

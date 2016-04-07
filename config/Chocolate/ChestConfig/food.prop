@@ -11,7 +11,6 @@ cookie = minecraft:cookie,8,0,20
 cocoa = minecraft:dye,16,3,20
 apple = minecraft:apple,5,0,10
 potatoPoisoned = minecraft:poisonous_potato,1,0,10
-
 maple = harvestcraft:maplesyrupItem,16,0,20
 cinnamon = harvestcraft:cinnamonItem,16,0,20
 peppercorn = harvestcraft:peppercornItem,16,0,20
@@ -25,7 +24,6 @@ tomato = harvestcraft:tomatoItem,16,0,30
 garlic = harvestcraft:garlicItem,16,0,30
 onion = harvestcraft:onionItem,16,0,30
 sunflower = harvestcraft:sunflowerseedsItem,16,0,30
-
 gcrice = Growthcraft|Rice:grc.rice,16,0,30
 cider = Growthcraft|Apples:grc.appleCider,2, 2, 15
 mead = Growthcraft|Bees:grc.honeyMead,2, 2, 15
@@ -34,13 +32,10 @@ ale = Growthcraft|Hops:grc.hopAle,2, 2, 15
 lager = Growthcraft|Hops:grc.lager,2, 2, 15
 sake = Growthcraft|Rice:grc.riceSake,2, 2, 15
 kumis = Growthcraft|Milk:grcmilk.KumisBottle,3, 2, 15
-
 breweryeast = Growthcraft|Cellar:grc.yeast,16, 0, 10
 lageryeast = Growthcraft|Cellar:grc.yeast,16, 1, 10
 bayanus = Growthcraft|Cellar:grc.yeast,16, 2, 10
-
 meatystew = witchery:stew,4,0,25
 rabbitstew = etfuturum:rabbit_stew,4,0,25
 rabbit = etfuturum:rabbit_raw,6,0,40
-
 thaumiccake = ForbiddenMagic:ArcaneCake, 1, 0, 1

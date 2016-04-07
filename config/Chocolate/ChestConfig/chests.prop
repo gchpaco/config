@@ -1,35 +1,30 @@
 saddle = minecraft:saddle,1,0,15
-iron = minecraft:iron_ingot,3,0,10
+iron = minecraft:iron_ingot,4,0,18
 gold = minecraft:gold_ingot,3,0,5
-wheat = minecraft:wheat,9,0,30
 clock= minecraft:clock,1,0,10
-gunpowder = minecraft:gunpowder,3,0,80
-leather= minecraft:leather,5,0,80
-torch = minecraft:torch,10,0,100
+gunpowder = minecraft:gunpowder,3,0,45
+leather= minecraft:leather,5,0,40
+torch = minecraft:torch,24,0,55
 coal= minecraft:coal,8,0,30
-arrow= minecraft:arrow,16,0,80
-cookie= minecraft:cookie,3,0,30
+arrow= minecraft:arrow,32,0,38
+cookie= minecraft:cookie,16,0,22
 lead= minecraft:lead,1,0,15
 nameTag= minecraft:name_tag,1,0,5
 map= minecraft:map,1,0,10
-emerald= minecraft:emerald,1,0,20
+emerald= minecraft:emerald,1,0,14
 ironHorseArmor= minecraft:iron_horse_armor,1,0,10
 goldHorseArmor= minecraft:golden_horse_armor,1,0,5
 diamondHorseArmor= minecraft:diamond_horse_armor,1,0,1
-
-potion= chocolateQuest:healingPotion 1,0,20
-bullets= chocolateQuest:bullet,9,0,10
-
-slatet1 = AWWayofTime:blankSlate,1,0,20
-slatet2 = AWWayofTime:reinforcedSlate,1,0,10
+enderPearl = minecraft:ender_pearl,1,0,30
+cqpotion= chocolateQuest:healingPotion,1,0,20
+cqbullets= chocolateQuest:bullet,9,0,10
+slatet1 = AWWayofTime:blankSlate,4,0,20
+slatet2 = AWWayofTime:reinforcedSlate,2,0,11
 slatet3 = AWWayofTime:imbuedSlate,1,0,5
 lavacrystal = AWWayofTime:lavaCrystal,1,0,10
-
 blueinfinityorb = arsmagica2:rune,1,17,20
 greeninfinityorb = arsmagica2:rune,1,18,5
-
 enchanterphial = Automagy:phialExtra,1,0,10
-
 avglengthcat = AWWayofTime:averageLengtheningCatalyst,1,0,10
 avgpowcat = AWWayofTime:averagePowerCatalyst,1,0,10
 grtlengthcat = AWWayofTime:greaterLengtheningCatalyst,1,0,5
@@ -37,47 +32,35 @@ grtpowcat = AWWayofTime:greaterPowerCatalyst,1,0,5
 munlengthcat = AWWayofTime:mundaneLengtheningCatalyst,1,0,15
 munpowcat = AWWayofTime:mundanePowerCatalyst,1,0,15
 stdbindingagent = AWWayofTime:standardBindingAgent,1,0,10
-blacklotus = Botania:blackLotus,1,0,10
-bottledmana = Botania:manaBottle,1,0,10
-manasteel = Botania:manaResource,1,0,10
+blacklotus = Botania:blackLotus,1,0,11
+manasteel = Botania:manaResource,2,0,16
 manapearl = Botania:manaResource,1,1,10
-overgrowthseed = Botania:overgrowthSeed,1,0,5
-
-conduitprobe = EnderIO:itemConduitProbe,1,0,10
-
+overgrowthseed = Botania:overgrowthSeed,1,0,6
 travelstaff = EnderIO:itemTravelStaff,1,0,10
-
-divisionsigil = ExtraUtilities:divisionSigil,1,0,5
-enderliily = ExtraUtilities:plant/ender_lilly,1,0,10
-steadfastdrone = Forestry:beeDroneGE,1,0,10
-
+divisionsigil = ExtraUtilities:divisionSigil,1,0,9
+enderlily = ExtraUtilities:plant/ender_lilly,1,0,26
+steadfastdrone = Forestry:beeDroneGE,1,0,16
 dirtystamp = GardenContainers:pottery_pattern_dirty,2,0,15
-
 oblivionframe = MagicBees:frameOblivion,1,0,10
-
 whitestone = RandomThings:whitestone,1,0,3
-
-unknowndimlet = rftools:unknownDimlet,1,0,10
-
-magicchalk = runicdungeons:item.magicchalk,1,0,10
-
-miniheart = TConstruct:heartCanister,1,1,10
+unknowndimlet = rftools:unknownDimlet,3,0,17
+magicchalk = runicdungeons:item.magicchalk,1,0,25
+miniheart = TConstruct:heartCanister,1,1,20
 redheart = TConstruct:heartCanister,1,2,1
-
-necroticbone = TConstruct:materials,1,8,10
-
-
-commontreasure = Thaumcraft:ItemLootBag,1,0,10
-uncommontreasure = Thaumcraft:ItemLootBag,1,1,1
-
-knowledgefragment = Thaumcraft:ItemResource,1,9,10
-
+necroticbone = TConstruct:materials,1,8,14
+commontreasure = Thaumcraft:ItemLootBag,6,0,13
+uncommontreasure = Thaumcraft:ItemLootBag,3,1,3
+knowledgefragment = Thaumcraft:ItemResource,3,9,8
+thaumium = Thaumcraft:ItemResource,2,2,16
+TCgoldcoin = Thaumcraft:ItemResource,9,18,12
 hardenedsatchel = ThermalExpansion:satchel,1,2,10
-
-
-cider = Growthcraft|Apples:grc.appleCider,1, 1, 15
-mead = Growthcraft|Bees:grc.honeyMead,1, 1, 15
-wine = Growthcraft|Grapes:grc.grapeWine,1, 1, 15
-ale = Growthcraft|Hops:grc.hopAle,1, 1, 15
-lager = Growthcraft|Hops:grc.lager,1, 1, 15
-sake = Growthcraft|Rice:grc.riceSake,1, 1, 15
+cider = Growthcraft|Apples:grc.appleCider,1, 1, 25
+mead = Growthcraft|Bees:grc.honeyMead,1, 1, 25
+wine = Growthcraft|Grapes:grc.grapeWine,1, 1, 25
+ale = Growthcraft|Hops:grc.hopAle,1, 1, 25
+lager = Growthcraft|Hops:grc.lager,1, 1, 25
+sake = Growthcraft|Rice:grc.riceSake,1, 1, 25
+foundrybullet = foundry:foundryComponent,12,9,20
+foundryhollowpointbullet = foundry:foundryComponent,8,10,18
+foundrypellet = foundry:foundryComponent,24,14,20
+paper = minecraft:paper,16,0,20

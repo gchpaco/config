@@ -1,5 +1,5 @@
 {
-  "comment": "Default Yeast Config",
+  "comment": "Default Yeast Config v1.1.0",
   "data": [
     {
       "comment": "Brewers yeast is the default yeast, which appears in all other biomes that are filled by the Lager or Ethereal",
@@ -10,6 +10,7 @@
         "amount": 1,
         "meta": 0
       },
+      "weight": 1,
       "biome_types": [
         "HOT",
         "SPARSE",
@@ -51,6 +52,7 @@
         "amount": 1,
         "meta": 3
       },
+      "weight": 10,
       "biome_types": [
         "MAGICAL"
       ],
@@ -65,6 +67,7 @@
         "amount": 1,
         "meta": 1
       },
+      "weight": 10,
       "biome_types": [
         "COLD"
       ],
@@ -79,6 +82,7 @@
         "amount": 1,
         "meta": 4
       },
+      "weight": 10,
       "biome_types": [
         "MUSHROOM"
       ],

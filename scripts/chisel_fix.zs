@@ -32,7 +32,7 @@ mods.chisel.Groups.addVariation("marble", <Artifice:tile.artifice.marble:5>);
 
 // We have Artifice, ProjRed, and Botania basalt. They should be chiselable.
 
-mods.chisel.Groups.addGroup("basalt"); 
+mods.chisel.Groups.addGroup("basalt");
 
 mods.chisel.Groups.addVariation("basalt", <Artifice:tile.artifice.basalt:0>);
 mods.chisel.Groups.addVariation("basalt", <Artifice:tile.artifice.basalt:2>);
@@ -45,6 +45,21 @@ mods.chisel.Groups.addVariation("basalt", <Botania:stone:9>);
 mods.chisel.Groups.addVariation("basalt", <Botania:stone:13>);
 mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:3>);
 mods.chisel.Groups.addVariation("basalt", <ProjRed|Exploration:projectred.exploration.stone:4>);
+
+mods.chisel.Groups.addVariation("andesite", <Botania:stone>);
+mods.chisel.Groups.addVariation("andesite", <Botania:stone:4>);
+mods.chisel.Groups.addVariation("andesite", <Botania:stone:8>);
+mods.chisel.Groups.addVariation("andesite", <Botania:stone:12>);
+
+mods.chisel.Groups.addVariation("diorite", <Botania:stone:2>);
+mods.chisel.Groups.addVariation("diorite", <Botania:stone:6>);
+mods.chisel.Groups.addVariation("diorite", <Botania:stone:10>);
+mods.chisel.Groups.addVariation("diorite", <Botania:stone:14>);
+
+mods.chisel.Groups.addVariation("granite", <Botania:stone:3>);
+mods.chisel.Groups.addVariation("granite", <Botania:stone:7>);
+mods.chisel.Groups.addVariation("granite", <Botania:stone:11>);
+mods.chisel.Groups.addVariation("granite", <Botania:stone:15>);
 
 // Tan limestone is equal to Chisel limestone.
 mods.chisel.Groups.addVariation("limestone", <Artifice:tile.artifice.limestone.tan:0>);
@@ -63,35 +78,35 @@ mods.chisel.Groups.addVariation("stonebricksmooth", <Artifice:tile.artifice.lime
 
 // Make these chiselable within the group
 
-mods.chisel.Groups.addGroup("greenlimestone"); 
+mods.chisel.Groups.addGroup("greenlimestone");
 mods.chisel.Groups.addVariation("greenlimestone", <Artifice:tile.artifice.limestone.greenish:0>);
 mods.chisel.Groups.addVariation("greenlimestone", <Artifice:tile.artifice.limestone.greenish:2>);
 mods.chisel.Groups.addVariation("greenlimestone", <Artifice:tile.artifice.limestone.greenish:3>);
 mods.chisel.Groups.addVariation("greenlimestone", <Artifice:tile.artifice.limestone.greenish:4>);
 mods.chisel.Groups.addVariation("greenlimestone", <Artifice:tile.artifice.limestone.greenish:5>);
 
-mods.chisel.Groups.addGroup("redlimestone"); 
+mods.chisel.Groups.addGroup("redlimestone");
 mods.chisel.Groups.addVariation("redlimestone", <Artifice:tile.artifice.limestone.reddish:0>);
 mods.chisel.Groups.addVariation("redlimestone", <Artifice:tile.artifice.limestone.reddish:2>);
 mods.chisel.Groups.addVariation("redlimestone", <Artifice:tile.artifice.limestone.reddish:3>);
 mods.chisel.Groups.addVariation("redlimestone", <Artifice:tile.artifice.limestone.reddish:4>);
 mods.chisel.Groups.addVariation("redlimestone", <Artifice:tile.artifice.limestone.reddish:5>);
 
-mods.chisel.Groups.addGroup("bluelimestone"); 
+mods.chisel.Groups.addGroup("bluelimestone");
 mods.chisel.Groups.addVariation("bluelimestone", <Artifice:tile.artifice.limestone.bluish:0>);
 mods.chisel.Groups.addVariation("bluelimestone", <Artifice:tile.artifice.limestone.bluish:2>);
 mods.chisel.Groups.addVariation("bluelimestone", <Artifice:tile.artifice.limestone.bluish:3>);
 mods.chisel.Groups.addVariation("bluelimestone", <Artifice:tile.artifice.limestone.bluish:4>);
 mods.chisel.Groups.addVariation("bluelimestone", <Artifice:tile.artifice.limestone.bluish:5>);
 
-mods.chisel.Groups.addGroup("brownlimestone"); 
+mods.chisel.Groups.addGroup("brownlimestone");
 mods.chisel.Groups.addVariation("brownlimestone", <Artifice:tile.artifice.limestone.brown:0>);
 mods.chisel.Groups.addVariation("brownlimestone", <Artifice:tile.artifice.limestone.brown:2>);
 mods.chisel.Groups.addVariation("brownlimestone", <Artifice:tile.artifice.limestone.brown:3>);
 mods.chisel.Groups.addVariation("brownlimestone", <Artifice:tile.artifice.limestone.brown:4>);
 mods.chisel.Groups.addVariation("brownlimestone", <Artifice:tile.artifice.limestone.brown:5>);
 
-mods.chisel.Groups.addGroup("graylimestone"); 
+mods.chisel.Groups.addGroup("graylimestone");
 mods.chisel.Groups.addVariation("graylimestone", <Artifice:tile.artifice.limestone.gray:0>);
 mods.chisel.Groups.addVariation("graylimestone", <Artifice:tile.artifice.limestone.gray:2>);
 mods.chisel.Groups.addVariation("graylimestone", <Artifice:tile.artifice.limestone.gray:3>);

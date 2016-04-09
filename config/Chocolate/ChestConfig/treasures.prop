@@ -62,4 +62,4 @@ avaricepearl = Automagy:avaricePearl,1,0,35
 silkpanels = Forestry:craftingMaterial,7,3,17
 emeralddrawerupgrade = StorageDrawers:upgrade,2,6,30
 blackholetalisman = Botania:blackHoleTalisman,1,0,10
-soap = Thaumcraft:ItemSanitySoap,4,0,10
+soap = Thaumcraft:ItemSanitySoap,8,0,14

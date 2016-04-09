@@ -156,6 +156,7 @@
         "TwilightForest:tile.TFLog",
         "TwilightForest:tile.TFMagicLeaves",
         "TwilightForest:tile.TFMagicLog",
+        "arsmagica2:WitchwoodLog",
         "atum:tile.palmLog/0",
         "erebus:leavesAsper/0",
         "erebus:leavesBaobab/0",
@@ -800,6 +801,7 @@
         "ProjRed|Exploration:projectred.exploration.ore/2",
         "Railcraft:cube/6",
         "Railcraft:cube/7",
+        "Railcraft:ore",
         "Steamcraft:steamcraftOre/0",
         "Steamcraft:steamcraftOre/1",
         "TConstruct:GravelOre/0",
@@ -831,6 +833,7 @@
         "appliedenergistics2:tile.BlockSkyStone",
         "appliedenergistics2:tile.OreQuartz/0",
         "appliedenergistics2:tile.OreQuartzCharged/0",
+        "arsmagica2:vinteumOre",
         "bluepower:teslatite ore",
         "bluepower:tungsten_ore/0",
         "chisel:andesite",
@@ -908,6 +911,9 @@
         "erebus:orePetrifiedWood/0",
         "erebus:oreTemple/0",
         "factorization:DarkIronOre/0",
+        "fossil:amberOre",
+        "fossil:fossil",
+        "harvestcraft:salt",
         "iridiummod:iridiumOre/0",
         "magicalcrops:magicalcrops_EssenceOre",
         "magicalcrops:magicalcrops_EssenceOreNether",
@@ -928,7 +934,8 @@
         "minecraft:nether_brick_fence",
         "minecraft:obsidian",
         "minecraft:quartz_ore",
-        "minecraft:redstone_ore"
+        "minecraft:redstone_ore",
+        "rftools:dimensionalShardBlock"
       ]
     },
     "shears": {
@@ -1130,6 +1137,7 @@
         "Natura:heatsand",
         "Natura:soil.tainted",
         "TConstruct:GravelOre",
+        "fossil:permafrost",
         "minecraft:clay",
         "minecraft:gravel",
         "minecraft:sand",

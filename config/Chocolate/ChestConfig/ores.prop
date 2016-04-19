@@ -46,3 +46,13 @@ signalum = ThermalFoundation:material,4,74,16
 enderium = ThermalFoundation:material,4,76,5
 PRredalloy = ProjRed|Core:projectred.core.part,6,10,37
 oremagnet = TwilightForest:item.oreMagnet,1,0,5
+
+arcaneingotwhite = aura:ingotWhite,1,0,13
+arcaneingotgreen = aura:ingotGreen,1,0,13
+arcaneingotblack = aura:ingotBlack,1,0,13
+arcaneingotred = aura:ingotRed,1,0,13
+arcaneingotorange = aura:ingotOrange,1,0,13
+arcaneingotyellow = aura:ingotYellow,1,0,13
+arcaneingotblue = aura:ingotBlue,1,0,13
+arcaneingotviolet = aura:ingotViolet,1,0,13
+sunstone = arsmagica2:vinteumOre,5,4,8

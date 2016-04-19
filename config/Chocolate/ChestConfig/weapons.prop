@@ -70,3 +70,8 @@ tribow = TwilightForest:item.tripleBow, 1, 0, 5
 seekerbow = TwilightForest:item.seekerBow,1,0,7
 icebow = TwilightForest:item.iceBow,1,0,10
 enderbow = TwilightForest:item.enderBow,1,0,2
+
+rustedSwordAndShield = chocolateQuest:rustedSword,1,0,1
+rustedBigSword = chocolateQuest:rustedBigSword,1,0,1
+rustedDagger = chocolateQuest:rustedDagger,1,0,1
+rustedSpear = chocolateQuest:rustedSpear,1,0,1

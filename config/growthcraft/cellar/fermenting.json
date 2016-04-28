@@ -11,217 +11,7 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead0",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead1",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Nether Wart",
-        "mod_id": "minecraft",
-        "name": "nether_wart",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead0",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead1",
-        "amount": 1
-      },
-      "time": 15840
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Glowstone Dust",
-        "mod_id": "minecraft",
-        "name": "glowstone_dust",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead1",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead2",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Glowstone Dust",
-        "mod_id": "minecraft",
-        "name": "glowstone_dust",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead3",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead2",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Redstone",
-        "mod_id": "minecraft",
-        "name": "redstone",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead1",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead3",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Redstone",
-        "mod_id": "minecraft",
-        "name": "redstone",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead2",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead3",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Ethereal Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 3
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead2",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead4",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Ethereal Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 3
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead3",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead4",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Origin Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 4
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead2",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead5",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Origin Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 4
-      },
-      "input_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead3",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Mead",
-        "name": "grc.honeymead5",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Brewers Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Grape Wine",
+        "comment": "Grape Juice",
         "name": "grc.grapewine0",
         "amount": 1
       },
@@ -242,7 +32,7 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Grape Wine",
+        "comment": "Grape Juice",
         "name": "grc.grapewine0",
         "amount": 1
       },
@@ -431,7 +221,217 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Ale",
+        "comment": "Sake Moromi",
+        "name": "grc.ricesake0",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake1",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Nether Wart",
+        "mod_id": "minecraft",
+        "name": "nether_wart",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Sake Moromi",
+        "name": "grc.ricesake0",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake1",
+        "amount": 1
+      },
+      "time": 15840
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Glowstone Dust",
+        "mod_id": "minecraft",
+        "name": "glowstone_dust",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake1",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake2",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Glowstone Dust",
+        "mod_id": "minecraft",
+        "name": "glowstone_dust",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake3",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake2",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Redstone",
+        "mod_id": "minecraft",
+        "name": "redstone",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake1",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake3",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Redstone",
+        "mod_id": "minecraft",
+        "name": "redstone",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake2",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake3",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Ethereal Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 3
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake2",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Divine Sake",
+        "name": "grc.ricesake4",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Ethereal Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 3
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake3",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Divine Sake",
+        "name": "grc.ricesake4",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Origin Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 4
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake2",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake5",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Origin Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 4
+      },
+      "input_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake3",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake5",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Brewers Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Ale Wort",
         "name": "grc.hopale0",
         "amount": 1
       },
@@ -452,7 +452,7 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Ale",
+        "comment": "Ale Wort",
         "name": "grc.hopale0",
         "amount": 1
       },
@@ -662,7 +662,7 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Lager",
+        "comment": "Lager Wort",
         "name": "grc.lager0",
         "amount": 1
       },
@@ -683,7 +683,7 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Lager",
+        "comment": "Lager Wort",
         "name": "grc.lager0",
         "amount": 1
       },
@@ -872,13 +872,13 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake0",
+        "comment": "Mead Must",
+        "name": "grc.honeymead0",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake1",
+        "comment": "Mead",
+        "name": "grc.honeymead1",
         "amount": 1
       },
       "time": 24000
@@ -893,13 +893,13 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake0",
+        "comment": "Mead Must",
+        "name": "grc.honeymead0",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake1",
+        "comment": "Mead",
+        "name": "grc.honeymead1",
         "amount": 1
       },
       "time": 15840
@@ -914,13 +914,13 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake1",
+        "comment": "Mead",
+        "name": "grc.honeymead1",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake2",
+        "comment": "Mead",
+        "name": "grc.honeymead2",
         "amount": 1
       },
       "time": 24000
@@ -935,13 +935,13 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake3",
+        "comment": "Mead",
+        "name": "grc.honeymead3",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake2",
+        "comment": "Mead",
+        "name": "grc.honeymead2",
         "amount": 1
       },
       "time": 24000
@@ -956,13 +956,13 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake1",
+        "comment": "Mead",
+        "name": "grc.honeymead1",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake3",
+        "comment": "Mead",
+        "name": "grc.honeymead3",
         "amount": 1
       },
       "time": 24000
@@ -977,13 +977,13 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake2",
+        "comment": "Mead",
+        "name": "grc.honeymead2",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake3",
+        "comment": "Mead",
+        "name": "grc.honeymead3",
         "amount": 1
       },
       "time": 24000
@@ -998,13 +998,13 @@
         "meta": 3
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake2",
+        "comment": "Mead",
+        "name": "grc.honeymead2",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Divine Sake",
-        "name": "grc.ricesake4",
+        "comment": "Mead",
+        "name": "grc.honeymead4",
         "amount": 1
       },
       "time": 24000
@@ -1019,13 +1019,13 @@
         "meta": 3
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake3",
+        "comment": "Mead",
+        "name": "grc.honeymead3",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Divine Sake",
-        "name": "grc.ricesake4",
+        "comment": "Mead",
+        "name": "grc.honeymead4",
         "amount": 1
       },
       "time": 24000
@@ -1040,13 +1040,13 @@
         "meta": 4
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake2",
+        "comment": "Mead",
+        "name": "grc.honeymead2",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake5",
+        "comment": "Mead",
+        "name": "grc.honeymead5",
         "amount": 1
       },
       "time": 24000
@@ -1061,13 +1061,13 @@
         "meta": 4
       },
       "input_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake3",
+        "comment": "Mead",
+        "name": "grc.honeymead3",
         "amount": 1
       },
       "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake5",
+        "comment": "Mead",
+        "name": "grc.honeymead5",
         "amount": 1
       },
       "time": 24000
@@ -1082,7 +1082,259 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Milk",
+        "name": "grcmilk.milk",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis0",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Nether Wart",
+        "mod_id": "minecraft",
+        "name": "nether_wart",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Milk",
+        "name": "grcmilk.milk",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis0",
+        "amount": 1
+      },
+      "time": 15840
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Brewers Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Milk",
+        "name": "milk",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis0",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Nether Wart",
+        "mod_id": "minecraft",
+        "name": "nether_wart",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Milk",
+        "name": "milk",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis0",
+        "amount": 1
+      },
+      "time": 15840
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Glowstone Dust",
+        "mod_id": "minecraft",
+        "name": "glowstone_dust",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis0",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis1",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Glowstone Dust",
+        "mod_id": "minecraft",
+        "name": "glowstone_dust",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis2",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis1",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Redstone",
+        "mod_id": "minecraft",
+        "name": "redstone",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis0",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis2",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Redstone",
+        "mod_id": "minecraft",
+        "name": "redstone",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis1",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis2",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Ethereal Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 3
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis1",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis3",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Ethereal Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 3
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis2",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis3",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Origin Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 4
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis1",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis4",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Origin Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 4
+      },
+      "input_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis2",
+        "amount": 1
+      },
+      "output_fluid": {
+        "comment": "Kumis",
+        "name": "grcmilk.kumis4",
+        "amount": 1
+      },
+      "time": 24000
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Brewers Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Apple Juice",
         "name": "grc.applecider0",
         "amount": 1
       },
@@ -1103,7 +1355,7 @@
         "meta": 0
       },
       "input_fluid": {
-        "comment": "Apple Cider",
+        "comment": "Apple Juice",
         "name": "grc.applecider0",
         "amount": 1
       },
@@ -1257,258 +1509,6 @@
       "output_fluid": {
         "comment": "Apple Cider",
         "name": "grc.applecider5",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Brewers Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Milk",
-        "name": "grcmilk.milk",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Nether Wart",
-        "mod_id": "minecraft",
-        "name": "nether_wart",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Milk",
-        "name": "grcmilk.milk",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 15840
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Brewers Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Milk",
-        "name": "milk",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Nether Wart",
-        "mod_id": "minecraft",
-        "name": "nether_wart",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Milk",
-        "name": "milk",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "time": 15840
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Glowstone Dust",
-        "mod_id": "minecraft",
-        "name": "glowstone_dust",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis1",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Glowstone Dust",
-        "mod_id": "minecraft",
-        "name": "glowstone_dust",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis2",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis1",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Redstone",
-        "mod_id": "minecraft",
-        "name": "redstone",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis0",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis2",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Redstone",
-        "mod_id": "minecraft",
-        "name": "redstone",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis1",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis2",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Ethereal Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 3
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis1",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis3",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Ethereal Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 3
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis2",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis3",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Origin Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 4
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis1",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis4",
-        "amount": 1
-      },
-      "time": 24000
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Origin Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 4
-      },
-      "input_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis2",
-        "amount": 1
-      },
-      "output_fluid": {
-        "comment": "Kumis",
-        "name": "grcmilk.kumis4",
         "amount": 1
       },
       "time": 24000

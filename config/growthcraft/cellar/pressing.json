@@ -11,7 +11,7 @@
         "meta": 0
       },
       "fluid": {
-        "comment": "Grape Wine",
+        "comment": "Grape Juice",
         "name": "grc.grapewine0",
         "amount": 40
       },
@@ -52,14 +52,13 @@
     {
       "comment": "",
       "item": {
-        "comment": "Apple",
-        "mod_id": "minecraft",
-        "name": "apple",
+        "ore": "foodApple",
+        "comment": "",
         "amount": 1,
-        "meta": 0
+        "meta": 32767
       },
       "fluid": {
-        "comment": "Apple Cider",
+        "comment": "Apple Juice",
         "name": "grc.applecider0",
         "amount": 40
       },

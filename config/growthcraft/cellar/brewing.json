@@ -33,11 +33,10 @@
     {
       "comment": "",
       "item": {
-        "comment": "Wheat",
-        "mod_id": "minecraft",
-        "name": "wheat",
+        "ore": "cropRice",
+        "comment": "",
         "amount": 1,
-        "meta": 0
+        "meta": 32767
       },
       "input_fluid": {
         "comment": "Water",
@@ -45,123 +44,7 @@
         "amount": 40
       },
       "output_fluid": {
-        "comment": "Ale",
-        "name": "grc.hopale4",
-        "amount": 40
-      },
-      "residue": {
-        "pomace": 0.3,
-        "comment": "Bone Meal",
-        "mod_id": "minecraft",
-        "name": "dye",
-        "amount": 1,
-        "meta": 15
-      },
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Hops",
-        "mod_id": "Growthcraft|Hops",
-        "name": "grc.hops",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "grc.hopale4",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Ale",
-        "name": "grc.hopale0",
-        "amount": 40
-      },
-      "residue": {
-        "pomace": 0.0,
-        "comment": "Bone Meal",
-        "mod_id": "minecraft",
-        "name": "dye",
-        "amount": 1,
-        "meta": 15
-      },
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Lager Yeast",
-        "mod_id": "Growthcraft|Cellar",
-        "name": "grc.yeast",
-        "amount": 1,
-        "meta": 1
-      },
-      "input_fluid": {
-        "comment": "Ale",
-        "name": "grc.hopale4",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Lager",
-        "name": "grc.lager0",
-        "amount": 40
-      },
-      "residue": {
-        "pomace": 0.0,
-        "comment": "Bone Meal",
-        "mod_id": "minecraft",
-        "name": "dye",
-        "amount": 1,
-        "meta": 15
-      },
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Rice Grain",
-        "mod_id": "Growthcraft|Rice",
-        "name": "grc.rice",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Water",
-        "name": "water",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Sake",
-        "name": "grc.ricesake0",
-        "amount": 40
-      },
-      "residue": {
-        "pomace": 0.2,
-        "comment": "Bone Meal",
-        "mod_id": "minecraft",
-        "name": "dye",
-        "amount": 1,
-        "meta": 15
-      },
-      "time": 1200
-    },
-    {
-      "comment": "",
-      "item": {
-        "comment": "Pam's Rice",
-        "mod_id": "harvestcraft",
-        "name": "riceItem",
-        "amount": 1,
-        "meta": 0
-      },
-      "input_fluid": {
-        "comment": "Water",
-        "name": "water",
-        "amount": 40
-      },
-      "output_fluid": {
-        "comment": "Sake",
+        "comment": "Sake Moromi",
         "name": "grc.ricesake0",
         "amount": 40
       },
@@ -243,6 +126,120 @@
         "name": "grcmilk.StarterCulture",
         "amount": 1,
         "meta": 0
+      },
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "cropWheat",
+        "comment": "",
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Ale Wort",
+        "name": "grc.hopale4",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.3,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": {
+        "ore": "cropHops",
+        "comment": "",
+        "amount": 1,
+        "meta": 32767
+      },
+      "input_fluid": {
+        "comment": "Ale Wort",
+        "name": "grc.hopale4",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Ale Wort",
+        "name": "grc.hopale0",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.0,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Lager Yeast",
+        "mod_id": "Growthcraft|Cellar",
+        "name": "grc.yeast",
+        "amount": 1,
+        "meta": 1
+      },
+      "input_fluid": {
+        "comment": "Ale Wort",
+        "name": "grc.hopale4",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Lager Wort",
+        "name": "grc.lager0",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.0,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
+      },
+      "time": 1200
+    },
+    {
+      "comment": "",
+      "item": {
+        "comment": "Pam's Rice",
+        "mod_id": "harvestcraft",
+        "name": "riceItem",
+        "amount": 1,
+        "meta": 0
+      },
+      "input_fluid": {
+        "comment": "Water",
+        "name": "water",
+        "amount": 40
+      },
+      "output_fluid": {
+        "comment": "Sake",
+        "name": "grc.ricesake0",
+        "amount": 40
+      },
+      "residue": {
+        "pomace": 0.2,
+        "comment": "Bone Meal",
+        "mod_id": "minecraft",
+        "name": "dye",
+        "amount": 1,
+        "meta": 15
       },
       "time": 1200
     },
